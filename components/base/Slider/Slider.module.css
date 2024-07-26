@@ -1,0 +1,37 @@
+.banner_home {
+    height: 533px;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.banner_image {
+    width: 100%; /* Faz a imagem expandir para cobrir a largura do contêiner */
+    height: 533px; /* Ajuste conforme necessário para a sua altura desejada */
+    object-fit: cover; /* Garante que a imagem cubra o contêiner, possivelmente cortando as bordas */
+    object-position: center; /* Centraliza a imagem dentro do contêiner */
+    margin: 0 auto; /* Mantido para centralizar se esta for uma tag img, mas remova se não for necessário */
+}
+
+
+/* Media query para tablets (dispositivos com largura menor que 1024px e maior que 768px) */
+@media (max-width: 1440px) and (min-width: 1280px) {
+
+    .banner_home {
+        height: 480px;
+    }
+
+    .banner_image {
+        height: 480px; /* Altura ajustada para tablets */
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 1024px) {
+
+    .banner_home {
+        height: 500px;
+    }
+
+    .banner_image {
+        height: 450px; /* Altura ajustada para tablets */
+    }
+}

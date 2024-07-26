@@ -1,0 +1,71 @@
+.accordion {
+    border: 2px solid #d1cbe0!important;
+    padding: 2rem 2rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    
+}
+
+.accordion_body {
+    padding: 2rem 0 1rem;
+    border-bottom: 1px solid #d1cbe0;
+    margin: 0 2rem;
+}
+
+.title_payments {
+    color: #2a2146;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.375rem;
+}
+
+.form_radio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 67px;
+    border: 2px solid #d1cbe0;
+    border-radius: 7px;
+    padding: 0 1rem 0 .5rem;
+}
+
+.form_radio.selected {
+    border: 2px solid #034C43;
+}
+
+.bg_checkout_back_next {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.125rem;
+    cursor: pointer;
+}
+
+.bg_checkout_back_next button {
+    width: 220px;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.warning {
+    color: #58565d;
+    font-size: .875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    text-align: right;
+    margin: 10px 0;
+}
+
+.bgIconCheckout {
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    width: 38px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

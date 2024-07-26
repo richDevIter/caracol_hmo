@@ -1,0 +1,18 @@
+{
+    "duration": "Duration",
+    "hours": "hours",
+    "departure": "Departure",
+    "at": "at",
+    "hrs": "h",
+    "seats": "Seats",
+    "peoplePerVehicle": "people per vehicle",
+    "handbag": "handbag per person",
+    "suitcase": "suitcase per person",
+    "perPeople": "per person, one way",
+    "perVehicle": "per vehicle, one way",
+    "addToCart": "Add to cart",
+    "brazil": "Brazil",
+    "foundTransfers": "found transfers",
+    "seeMore": "See more transfers",
+    "collapseAct": "Collapse transfers"
+}

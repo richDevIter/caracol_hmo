@@ -1,0 +1,167 @@
+.bg_what_rio {
+    background-color: #2a2146 !important;
+    height: 792px;
+    margin-bottom: 225px;
+}
+
+.what_text {
+    padding-top: 120px;
+}
+
+.what_text h3 {
+    width: 60%;
+    color: #fff;
+    font-size: 2.75rem;
+    line-height: 3.125rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.what_text p {
+    width: 60%;
+    color: #f6f5f8;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.btn_attraction {
+    padding-top: 25px;
+}
+
+.btn_attraction a {
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 10px 25px;
+    line-height: 1.375rem;
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+}
+
+.btn_attraction a:hover {
+    color: #000;
+    background-color: #00cc79;
+}
+
+.custom_position:nth-child(odd) {
+    margin-top: -40px;
+}
+
+.custom_position:nth-child(2n) {
+    margin-top: -10px;
+}
+
+.card_what_rio {
+    width: 100%;
+    height: 415px;
+    position: relative;
+    border-radius: 12px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_what_rio:after {
+    content: "";
+    background: linear-gradient(180deg, transparent 34.43%, rgba(0, 0, 0, .7) 73.67%);
+    width: 100%;
+    height: 415px;
+    position: absolute;
+    border-radius: 12px;
+    bottom: 0;
+}
+
+.card_content {
+    position: relative;
+    z-index: 1;
+    padding: 15px 20px;
+}
+
+.card_content span {
+    color: #f6f5f8;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.card_content h4 {
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #f6f5f8;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card_content a {
+    color: var(--secondary);
+    font-size: 1rem;
+    line-height: 2.125rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.card_content a:hover {
+    opacity: .7;
+}
+
+@media (max-width: 767px) {
+    .bg_what_rio {
+        height: 730px;
+        margin-bottom: 200px;
+    }
+
+    .what_text {
+        padding-top: 40px;
+    }
+
+    .what_text h3 {
+        width: 60%;
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+
+    .what_text p {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .card_what_rio {
+        width: 93% !important;
+        height: 380px;
+        display: flex !important;
+        margin-bottom: 15px;
+        justify-content: flex-end;
+    }
+
+    .btn_attraction {
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .what_slider_mobile {
+        margin-top: 75px;
+    }
+
+    .card_content {
+        bottom: 0;
+    }
+
+    .card_content span {
+        color: #f6f5f8;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+    }
+}

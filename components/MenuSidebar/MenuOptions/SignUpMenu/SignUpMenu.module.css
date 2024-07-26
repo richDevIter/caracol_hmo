@@ -1,0 +1,117 @@
+.header_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.close_button {
+    background: transparent;
+    right: 0;
+    top: 0;
+    border: 0;
+}
+
+.signup_menu {
+    margin: 0 20px;
+}
+
+.signup_form {
+    border-radius: 5px;
+    padding: 12px 20px;
+    width: 100%;
+    height: 48px;
+    background-color: initial;
+    font-size: 14px;
+    line-height: 24px;
+    border-color: #d1cbe0 !important;
+    z-index: 0;
+    border: 1px solid #ced4da;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 48px;
+}
+
+.google {
+    background-color: initial;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 48px;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.divisor hr {
+    width: 95px;
+    color: rgba(0, 0, 0, .5);
+    margin: 0;
+}
+
+.divisor span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
+    font-weight: 500;
+}
+
+.custom_control label {
+    text-align: left;
+    font-size: 15px;
+}
+
+.custom_control label span {
+    font-weight: 500;
+}
+
+.btn_enter {
+    height: 48px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.menu_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu_footer span {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a2146;
+}
+
+.menu_footer span span {
+    color: var(--primary);
+}
+
+.menu_footer hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
+.check_input {
+    width: 42px;
+    height: 16px;
+    padding-left: 20px;
+    margin: 5px 0 0 0;
+    border-radius: 5px;
+}

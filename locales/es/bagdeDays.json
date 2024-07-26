@@ -1,0 +1,9 @@
+{
+    "dom": "Dom",
+    "seg": "Lun",
+    "ter": "Mar",
+    "qua": "Mie",
+    "qui": "Jue",
+    "sex": "Vie",
+    "sab": "Sab"
+}

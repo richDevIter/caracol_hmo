@@ -1,0 +1,52 @@
+{
+    "tour": {
+        "summary": "Summary",
+        "otherInformation": "OTHER INFORMATION",
+        "highlights": "Highlights",
+        "details": "Details",
+        "contact": "Contact",
+        "reviews": "Reviewa",
+        "informations": "Informations",
+        "theExp": "The Experience",
+        "readMore": "Read More",
+        "collapse": "Collapse",
+        "cancellation": "Cancellation",
+        "upTo24Hours": "Up to 24 hours before checkin with 100% refund.",
+        "pricePerGroup": "Price per group from:",
+        "pricePerAdult": "Price per adult from:",
+        "pricePerAdult2": "Price per adult:",
+        "of": "of",
+        "for": "for:",
+        "buyTickets": "Buy Tickets",
+        "gallery": {
+            "seeAll": "See all",
+            "images": "images"
+        },
+        "tourOptions": {
+            "tourAlert1": "Product already exists in cart!",
+            "tourAlert2": "There must be at least one adult in the purchase!",
+            "tourStart": "Tour Start:",
+            "tourDuration": "Duration:",
+            "tourHours": "hours",
+            "tourSupplier": "Supplier:",
+            "includes": "Includes",
+            "notIncludes": "Does not include",
+            "addToCart": "Add to cart",
+            "dropdown": {
+                "adults": "Adults",
+                "children": "Children",
+                "infants": "Infants",
+                "young": "Young",
+                "elderAge": "(+ 60 years)",
+                "halfEntry": "Other Halfs",
+                "people": "People",
+                "fullEntry": "Full",
+                "dateSelect": "Please select a date",
+                "passengers": "Passengers"
+            }
+        },
+        "discountRules": "Discount Rules",
+        "howToGet": "How to get",
+        "accessRules": "Access Rules"
+    }
+}

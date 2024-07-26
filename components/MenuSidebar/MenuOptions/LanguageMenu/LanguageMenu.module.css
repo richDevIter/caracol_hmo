@@ -1,0 +1,24 @@
+.header_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 24px;
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+.header_menu h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.header_menu span {
+    font-weight: 500;
+}
+
+.close_button {
+    background: transparent;
+    right: 0;
+    top: 0;
+    border: 0;
+}

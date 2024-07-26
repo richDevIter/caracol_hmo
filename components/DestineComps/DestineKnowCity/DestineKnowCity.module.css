@@ -1,0 +1,146 @@
+.bg_know_city {
+    margin-top: -220px;
+    padding-bottom: calc(82px + 51px);
+}
+.bg_know_city .why_reservation h3 {
+    color: #2a2146;
+    font-size: 2.75rem;
+    line-height: 3.313rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    width: 90%;    
+}
+.bg_know_city .why_reservation p {
+    width: 90%;
+    color: #58565d;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-bottom: 0;
+}
+.bg_know_city .card_why_reservation {
+    background-color: #f5f5fb;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    padding: 28px;
+}
+.bg_know_city .card_why_reservation.why_top {
+    margin-top: 50px;
+}
+.bg_know_city .card_why_reservation img {
+    margin-bottom: 1rem;
+}
+.bg_know_city .card_why_reservation h4 {
+    color: #2a2146;
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 2.125rem;
+    margin-bottom: 0.5rem;
+}
+.bg_know_city .card_why_reservation p {
+    color: #58565d;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    
+    .bg_know_city .card_why_reservation {
+        max-width: 80% !important;
+        max-height: 100% !important;
+        margin: 40px 80px 0 ;
+   }
+    .bg_know_city .card_why_reservation.why_top {
+        top: 0;
+   }
+    .bg_know_city .card_why_reservation img {
+        width: 95px;
+        margin-bottom: 0.875rem;
+   }
+    .bg_know_city .card_why_reservation h4 {
+        font-size: 1.625rem;
+        line-height: 1.5rem;
+        margin-bottom: 0.6875rem;
+   }
+    .bg_know_city .card_why_reservation p {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+   }
+}
+
+@media (max-width: 764px) {
+    .bg_know_city {
+        position: inherit;
+        margin-top: -160px;
+        padding-bottom: calc(82px + 51px);
+   }
+    .bg_know_city .why_reservation h3 {
+        width: 100%;
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+        padding-bottom: 0.5rem;
+   }
+    .bg_know_city .why_reservation p {
+        width: 100%;
+        color: #58565d;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        font-weight: 400;
+        margin-bottom: 2.5rem;
+   }
+    .bg_know_city .card_why_reservation {
+        max-width: 90% !important;
+        max-height: 100% !important;
+        margin: 0 50px;
+   }
+    .bg_know_city .card_why_reservation.why_top {
+        top: 0;
+   }
+    .bg_know_city .card_why_reservation img {
+        width: 95px;
+        margin-bottom: 0.875rem;
+   }
+    .bg_know_city .card_why_reservation h4 {
+        font-size: 1.625rem;
+        line-height: 1.5rem;
+        margin-bottom: 0.6875rem;
+   }
+    .bg_know_city .card_why_reservation p {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+   }
+    .bg_know_city .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 15px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+        top: 10px;
+        cursor: pointer;
+   }
+    .bg_know_city .slick-dots li button::before {
+        opacity: 1 !important;
+        color: #c9b7ff;
+   }
+    .bg_know_city .slick-active button::before {
+        opacity: 1 !important;
+        color: var(--primary) !important;
+   }
+    .bg_know_city .slick-list {
+        padding: 0 !important;
+   }
+    .bg_know_city .slick-slider.slick-initialized:after {
+        width: 60px;
+        height: 100%;
+        background: linear-gradient(270deg, #fff 5%, rgba(255, 255, 255, 0) 80%);
+        content: "";
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        right: 0;
+   }
+}

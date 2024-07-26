@@ -1,0 +1,13 @@
+.banner_home {
+    /* height: 533px; */
+    overflow: hidden; 
+    position: relative; 
+}
+
+.banner_image {
+    width: 100%; /* Faz a imagem expandir para cobrir a largura do contêiner */
+    /*height: 533px; /* Ajuste conforme necessário para a sua altura desejada */
+    object-fit: cover; /* Garante que a imagem cubra o contêiner, possivelmente cortando as bordas */
+    object-position: center; /* Centraliza a imagem dentro do contêiner */
+    margin: 0 auto; /* Mantido para centralizar se esta for uma tag img, mas remova se não for necessário */
+}

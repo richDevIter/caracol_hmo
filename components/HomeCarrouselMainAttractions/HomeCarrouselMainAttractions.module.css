@@ -1,0 +1,220 @@
+.main_attractions {
+  padding-bottom: 50px;
+}
+
+.title_main_attractions {
+  color: #034C43;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.175rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle_main_attractions {
+  width: 90%;
+  color: #58565d;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin-bottom: 0;
+}
+
+
+.card_main_attractions {
+  text-decoration: none;
+  color: #2a2146 !important;
+}
+
+.card_main_attractions:focus-visible{
+  outline: none;
+}
+
+.bg_wrap{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  word-break: break-word;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 1920px) {
+  .card-main-attractions {
+    position: relative;
+    left: 180px;
+  }
+}
+
+@media (max-width: 2560px) {
+  .card-main-attractions {
+    position: relative;
+    left: 150px;
+  }
+}
+
+.img_main_attractions {
+  position: relative;
+  width: 367px;
+  height: 280px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.img_main_attractions_preload {
+  position: relative;
+  width: 367px;
+  height: 280px;
+  border-radius: 12px;
+  
+}
+
+.star_attractions {
+  width: 18px;
+}
+
+@media (max-width: 1920px) {
+  .img_main_attractions {
+    width: 360px !important;
+  }
+}
+
+@media (max-width: 2560px) {
+  .img_main_attractions {
+    width: 350px !important;
+  }
+}
+
+.badge_main_attractions {
+  position: absolute;
+  top: 12.5px;
+  font-weight: 500;
+  background-color: #034C43;
+  color: #fff;
+  width: 60px;
+  height: 40px;
+  z-index: 2;
+  border-radius: 0 12px 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_content_main_attractions {
+  width: 367px;
+}
+
+.span_city_main_attractions {
+  color: #58565d;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.h4_main_attractions {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  width: 90%;
+  max-height: 60px;
+  overflow: hidden;
+  margin-bottom: 0.875rem;
+}
+
+.p_main_attractions {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #2a2146;
+  align-items: baseline;
+}
+
+.strong_main_attractions {
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 2rem;
+  color: var(--primary);
+}
+
+.bg_home_carrousel_main {
+  position: relative;
+  top: -60px;
+}
+
+.text_preload {
+  height: 2rem;
+}
+
+
+@media (max-width: 767px) {
+  /* .bg_home_carrousel_main {
+    padding: 0 1rem;
+  } */
+
+  .main_attractions {
+    padding-bottom: 2rem;
+  }
+
+  .main_attractions h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .main_attractions p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-bottom: 0;
+  }
+
+  .img_main_attractions,
+  .img_main_attractions_preload {
+    width: 230px !important;
+    height: 150px;
+  }
+
+  .star_attractions {
+    width: 12px;
+    margin-right: 5px;
+    padding: 0 0 5px;
+  }
+
+  .h4_main_attractions {
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.175rem;
+    width: 200px;
+    margin-bottom: 0.25rem;
+  }
+
+  .span_city_main_attractions {
+    color: #58565d;
+    font-size: .75rem;
+    font-weight: 500;
+  }
+
+  .p_main_attractions {
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.175rem;
+  }
+
+  .strong_main_attractions {
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.175rem;
+  }
+
+  .badge_main_attractions {
+    width: 48px;
+    height: 32px;
+  }
+
+  .badge_main_attractions span {
+    font-size: .875rem;
+  }
+
+  .card_content_main_attractions {
+    width: 230px;
+  }
+}

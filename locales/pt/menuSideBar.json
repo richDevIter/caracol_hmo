@@ -1,0 +1,20 @@
+{
+    "mainMenu": {
+        "makeLogin": "Fazer login",
+        "createAccount": "Criar uma conta",
+        "or": "ou",
+        "myCart": "Meu carrinho",
+        "chooseLanguage": "Idioma",
+        "help": "Ajuda",
+        "myActivities": "Minhas atividades",
+        "myProfile": "Meu perfil",
+        "leave": "Sair"
+    },
+
+    "LanguageMenu": {
+        "selectLanguage": "Selecione seu idioma",
+        "portugues": "Português",
+        "ingles": "Inglês",
+        "espanhol": "Espanhol"
+    }
+}

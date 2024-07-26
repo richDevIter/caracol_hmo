@@ -1,0 +1,320 @@
+.my_outside {
+    padding-top: 60px;
+}
+
+.my_inside {
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+    .my_outside {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .my_outside {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .my_outside {   
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .my_outside {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .my_outside {
+        max-width: 1320px;
+    }
+}
+
+@media (max-width: 480px) {
+    .atividadesDestacadas .card.rounded.overflow-hidden {
+        margin: auto;
+        min-width: auto;
+        min-height: auto;
+        max-width: 280px;
+    }
+
+    .atividadesDestacadas .slick-prev {
+        left: 0;
+    }
+
+    .atividadesDestacadas .slick-next {
+        right: 0;
+    }
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .07), 0 2px 2px rgba(0, 0, 0, .07), 0 4px 4px rgba(0, 0, 0, .07), 0 8px 8px rgba(0, 0, 0, .07), 0 16px 16px rgba(0, 0, 0, .07);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
+
+.activ_img {
+    height: 230px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_body {
+    min-height: 330px;
+    overflow: hidden;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+
+.tourName {
+    height: 100% !important;
+    overflow: hidden;
+    margin-bottom: 0;
+    overflow: hidden;
+    font-size: 19px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.tourDescript {
+    color: #707070;
+    font-size: 12px;
+    margin: 0;
+    max-height: 20px;
+    overflow: hidden;
+}
+
+.product_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 115px !important;
+}
+
+.card_text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #707070;
+}
+
+.viewDetailsButton {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.bg_home_main_text {
+    margin: auto;
+    padding: 0 1rem;
+    width: 75%;
+}
+
+
+@media (max-width: 1399px) {
+    .tourName {
+        overflow: hidden;
+    }
+}
+
+
+.product-slider-caracol a {
+    text-decoration: none;
+}
+
+.product-slider-caracol a .tourDescript {
+    color: #707070;
+}
+
+
+
+.product-slider-caracol .btn {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 15px 30px;
+    min-width: 155px;
+}
+
+.container.container-atividades h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card_slider {
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.atividadesDestacadasCaracol .slick-track {
+    height: 580px !important;
+}
+
+.atividadesDestacadasCaracol .card.rounded.overflow-hidden {
+    min-height: 540px !important;
+}
+
+.atividadesDestacadasCaracol .tourName {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+@media (max-width: 480px) {
+    .container.container-atividades h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+
+    div#buy-product {
+        position: relative;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .slick-slider.pb-3.slick-initialized:before {
+        width: 40px;
+        height: 93%;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #eeeeee60 20%, #fff);
+        content: "";
+        z-index: 1;
+        position: absolute;
+        transform: rotate(-180deg);
+        left: 0px;
+    }
+
+    .slick-slider.pb-3.slick-initialized:after {
+        width: 40px;
+        height: 93%;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #eeeeee60 20%, #fff);
+        content: "";
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+}
+
+.tourDescript .svg-inline--fa .fa-secondary {
+    opacity: 0.6;
+}
+
+.tourDescript .svg-inline--fa .fa-primary {
+    fill: white;
+    opacity: 1;
+    opacity: var(--fa-primary-opacity, 1);
+}
+
+.buy-btn .btn {
+    padding: 0.375rem 0.75rem !important;
+    max-width: unset;
+}
+
+@media (max-width: 1400px) {
+    .atividadesDestacadasCaracol .card.rounded.overflow-hidden {
+        min-height: 560px !important;
+    }
+
+    .atividadesDestacadasCaracol .slick-track {
+        height: 580px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .atividadesDestacadas .slick-list {
+        max-height: 100% !important;
+
+    }
+
+    .atividadesDestacadas .slick-list .slick-track {
+        width: 100% !important;
+        height: 560px;
+    }
+
+    .atividadesDestacadas .slick-slide {
+        width: 25% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .atividadesDestacadas .slick-list {
+        max-height: 100% !important;
+
+    }
+
+    .atividadesDestacadas .slick-list .slick-track {
+        width: 100% !important;
+        height: 560px;
+    }
+
+    .atividadesDestacadas .slick-slide {
+        width: 33.33% !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .atividadesDestacadas .slick-list {
+        max-height: 100% !important;
+
+    }
+
+    .atividadesDestacadas .slick-list .slick-track {
+        width: 100% !important;
+        height: 560px;
+    }
+
+    .atividadesDestacadas .slick-slide {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .product-content {
+        min-height: 230px !important;
+    }
+
+    .slick-slider .slick-list {
+        max-height: 565px !important;
+    }
+
+    .atividadesDestacadas .slick-arrow {
+        display: block !important;
+    }
+
+    .atividadesDestacadas .slick-next,
+    .atividadesDestacadas .slick-prev {
+        &:before {
+            filter: invert(44%) sepia(21%) saturate(5230%) hue-rotate(0deg) brightness(101%) contrast(101%);
+        }
+    }
+
+    .atividadesDestacadasCaracol .card.rounded.overflow-hidden {
+        min-height: 560px !important;
+    }
+
+    .atividadesDestacadasCaracol .slick-track {
+        height: 580px !important;
+    }
+}
+
+
+
+.atividadesDestacadas .slick-track {
+    height: 530px;
+}

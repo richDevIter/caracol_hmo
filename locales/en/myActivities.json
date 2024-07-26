@@ -1,0 +1,16 @@
+{
+    "myActivities": "My Activities",
+    "nextActivities": "Next Activities",
+    "performedActivities": "Performed Activities",
+    "seeMore": "See more activities",
+    "card": {
+        "date": "Date:",
+        "activityStart":"Start of activity:",
+        "confirmed": "Confirmed",
+        "concluded": "Concluded",
+        "canceled": "Cancelad",
+        "cancellation": "Free cancellation",
+        "upTo": "Up to 24 hours before check-in with ",
+        "refund": "100% refund"
+    }
+}

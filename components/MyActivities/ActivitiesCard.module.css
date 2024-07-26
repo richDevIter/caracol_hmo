@@ -1,0 +1,90 @@
+.header {
+    padding: 1.5rem 1.5rem 1.9rem 1.5rem;
+}
+.header div.maped p {
+    color: #58565d;
+}
+
+.photo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 117px;
+    border-radius: 12px;
+}
+
+.description h4 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: .5rem;
+}
+.description svg {
+    margin-right: .5rem;
+    width: 16px;
+    height: 16px;
+    display: inline;
+}
+.description span {
+    font-size: 1rem;
+}
+.description h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--primary);
+}
+
+.price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.price span {
+    color: var(--primary);
+    font-size: 1.5rem;
+    padding-right: 0;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.footer {
+    color: #58565d;
+    background-color: #F5F5FB;
+    padding: 1rem 1.5rem;
+    border-radius: 0 0 18px 18PX;
+}
+
+.checked span {
+    color: #32A071;
+}
+.checked span svg {
+    width: 16px;
+    height: 16px;
+    /* line-height: 1; */
+}
+
+.concluded span {
+    color: #000000 !important;
+}
+.concluded span svg path{
+    width: 16px;
+    height: 16px;
+    line-height: 1;
+    fill: #000000;
+}
+.concluded span svg circle {
+    stroke: #000000;
+}
+
+@media (max-width: 766px) {
+    .photo {
+        height: 250px;
+    }
+
+    .maped {
+        position: relative !important;
+        bottom: 16rem !important;
+        left: .65rem;
+    }
+}

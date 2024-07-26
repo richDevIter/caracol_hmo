@@ -1,0 +1,200 @@
+.bg_main_tours {
+    padding-bottom: calc(82px + 51px);
+    padding-top: 10px;
+    position: relative;
+    bottom: 200px;
+}
+
+.bg_main_tours a {
+    text-decoration: none;
+}
+
+.bg_main_tours a p,
+.bg_main_tours a small {
+    color: #2a2146;
+}
+
+.bg_main_tours .why_reservation h3 {
+    color: var(--primary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.175rem;
+    padding-bottom: 1.5rem;
+}
+
+.bg_main_tours .why_reservation h3 span {
+    color: var(--secondary);
+}
+
+.bg_main_tours .why_reservation p {
+    width: 90%;
+    color: #58565d;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.bg_main_tours .card_why_reservation {
+    background-color: #f6f5f8;
+    width: 100%;
+    height: 260px;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.bg_main_tours .card_why_reservation h5 {
+    color: #2a2146;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    width: 95%;
+}
+
+.bg_main_tours .card_why_reservation .price {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+
+.bg_main_tours .card_why_reservation .price small {
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+}
+
+.bg_main_tours .card_why_reservation .price p {
+    color: var(--primary);
+    font-size: 1.75rem;
+    line-height: 1.563rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.bg_main_tours .card_why_reservation .price p span {
+    font-size: 2.625rem;
+}
+
+.bg_main_tours .card_why_reservation .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bg_main_tours .card_why_reservation .infos small {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    margin-bottom: 10px;
+}
+
+.bg_main_tours .card_why_reservation .infos p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    margin-bottom: 2.5px;
+}
+
+/* @media (min-width: 999px) and (max-width: 1080px){
+    .bg_main_tours .card_why_reservation {
+        height: 300px !important;
+    }
+}
+
+@media (min-width: 890px) and (max-width: 998px){
+    .bg_main_tours .card_why_reservation {
+        height: 340px !important;
+    }
+} */
+
+@media (max-width: 1023px) {
+    .bg_main_tours {
+        position: relative;
+        bottom: 125px;
+    }
+
+    .bg_main_tours .why_reservation h3 {
+        font-size: 2.125rem;
+        line-height: 2.75rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .bg_main_tours .why_reservation p {
+        width: 80%;
+        color: #58565d;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .bg_main_tours .card_why_reservation {
+        max-width: 90% !important;
+        max-height: 100% !important;
+    }
+
+    .bg_main_tours .card_why_reservation.why_top {
+        top: 0;
+    }
+
+    .bg_main_tours .card_why_reservation img {
+        width: 70px;
+        margin-bottom: 0.875rem;
+    }
+
+    .bg_main_tours .card_why_reservation h4 {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        margin-bottom: 0.6875rem;
+    }
+
+    .bg_main_tours .card_why_reservation p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.125rem;
+        margin-bottom: 2.5px;
+    }
+
+    .bg_main_tours .card_why_reservation .price p span {
+        font-size: 2.625rem;
+    }
+
+    .bg_main_tours .card_why_reservation small {
+        font-size: 1.125rem;
+        line-height: 1.125rem;
+        font-weight: 400;
+    }
+
+
+    .bg_main_tours .slick-slide {
+        left: 0.5%;
+        position: relative;
+    }
+
+    .bg_main_tours .slick-dots li {
+        position: relative;
+        display: inline-block;
+        width: 15px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+        top: 10px;
+        cursor: pointer;
+    }
+
+    .bg_main_tours .slick-dots li button::before {
+        opacity: 1 !important;
+        color: #c9b7ff;
+    }
+
+    .bg_main_tours .slick-active button::before {
+        opacity: 1 !important;
+        color: var(--primary) !important;
+    }
+
+    .bg_main_tours .slick-list {
+        padding: 0 !important;
+    }
+}

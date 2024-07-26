@@ -1,0 +1,25 @@
+{
+    "personalData": "Personal Data",
+    "security": "Security",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "updateInfo": "Update your information and find out how it's used.",
+    "adjustSettings": "Update your security settings and activate 2 factor authentication.",
+    "name": "Name",
+    
+    "fillInName": "Fill in your name",
+    "fillInEmail": "Fill in your e-mail",
+    "fillInPhone": "Fill in with your telephone",
+    "cpf": "CPF",
+    "email": "E-mail",
+    "thisEmail": "This is the email you use to log in. It is to him that we will send booking confirmations.",
+    "phone": "Telephone",
+    "password": "Password",
+    "resetPass": "Reset your password regularly to keep your account safe",
+    "reset": "Reset",
+    "currentPass": "Current Password",
+    "newPass": "New Password",
+    "confirmPass": "Confirm Password",
+    "useEight": "Use eight or more characters with a combination of letters, numbers and symbols"
+}

@@ -1,0 +1,25 @@
+{
+    "personalData": "Datos Personales",
+    "security": "Seguridad",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "updateInfo": "Actualiza tu información y aprende cómo se utiliza.",
+    "adjustSettings": "Actualizar sus configuraciones de seguridad y autenticação de 2 factores.",
+    "name": "Nombre",
+    
+    "fillInName": "Completa tu nombre",
+    "fillInEmail": "completa tu correo electrónico",
+    "fillInPhone": "completa con tu teléfono",    
+    "cpf": "CPF",
+    "email": "E-mail",
+    "thisEmail": "Este es el email que utiliza para iniciar sesión. Es a él a quien le enviaremos las confirmaciones de reserva.",
+    "phone": "Teléfono",
+    "password": "contraseña",
+    "resetPass": "Restablezca su contraseña regularmente para mantener su cuenta segura",
+    "reset": "Redefinir",
+    "currentPass": "Contraseña actual",
+    "newPass": "Nueva contraseña",
+    "confirmPass": "Confirmar contraseña",
+    "useEight": "Usa ocho o más caracteres con una combinación de letras, números y símbolos"
+}

@@ -1,0 +1,9 @@
+{
+    "forgot": {
+        "title": "¿Olvidaste tu contraseña?",
+        "subtitle": "Ingrese la dirección de correo electrónico asociada a su cuenta y le enviaremos un correo electrónico para restablecer su contraseña.",
+        "email": "Correo electrónico",
+        "errorEmail": "Por favor, proporcione un correo electrónico",
+        "send": "Enviar correo"
+    }
+}

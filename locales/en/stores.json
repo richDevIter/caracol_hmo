@@ -1,0 +1,16 @@
+{
+    "title": "Stores",
+    "filter": {
+        "select": "Selected Filters",
+        "type": "Types of Activities",
+        "location": "Location",
+        "clear": "Clear all"
+    },
+    "storeList": {
+        "phone": "Telephone:",
+        "page": "Page",
+        "show": "Showing",
+        "any": "No stores found.",
+        "social": "Social Media"
+    }
+}

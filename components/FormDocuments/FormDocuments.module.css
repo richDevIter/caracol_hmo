@@ -1,0 +1,33 @@
+.btn_file {
+    border: 1px solid #d1d3e2;
+    width: 110px;
+    border-radius: 0.25rem;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    height: auto;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.btn_file:hover {
+    opacity: .7;
+}
+
+.input_file {
+    display: none;
+}
+
+.btn_back {
+    border-radius: 100px;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 48px;
+    padding: 0 35px;
+    width: 100%;
+    color: var(--primary);
+    border-color: var(--primary);
+}

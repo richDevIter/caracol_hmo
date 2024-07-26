@@ -1,0 +1,9 @@
+{
+    "forgot": {
+        "title": "Esqueceu sua senha?",
+        "subtitle": "Insira o endereço de e-mail associado à sua conta e nós enviaremos um e-mail para a redefinição da senha.",
+        "email": "E-mail",
+        "errorEmail": "Por favor, informe um email",
+        "send": "Enviar email"
+    }
+}

@@ -1,0 +1,279 @@
+/* Styles of MainAttractions */
+
+.main_attractions {
+  padding-bottom: 50px;
+}
+
+.img_main_attractions_preload {
+  position: relative;
+  width: 367px;
+  height: 280px;
+  border-radius: 12px;
+  
+}
+
+.card_content_main_attractions {
+  width: 367px;
+}
+
+.text_preload {
+  height: 2rem;
+}
+
+@media (max-width: 1920px) {
+  .img_main_attractions_preload {
+    width: 360px !important;
+  }
+}
+
+@media (max-width: 2560px) {
+  .img_main_attractions_preload {
+    width: 350px !important;
+  }
+}
+
+@media (max-width: 767px) {
+ 
+  .img_main_attractions_preload {
+    width: 230px !important;
+    height: 150px;
+  }
+  .card_content_main_attractions {
+    width: 230px;
+  }
+}
+
+/* End of Styles MainAttractions */
+
+
+/* Styles of HomeNextAttractions */
+
+.bg_next_attractions {
+  position: relative;
+  top: 60px;
+  padding: 80px 0 120px;
+  margin-bottom: 60px;
+}
+
+.img_next_attractions_preload {
+  margin-top: 30px;
+  position: relative;
+  width: 560px;
+  height: 250px;
+  border-radius: 12px;
+  
+}
+
+.img_next_attractions_preload_solo {
+  margin-top: 30px;
+  margin-left: 7px;
+  position: relative;
+  width: 550px;
+  height: 520px;
+  border-radius: 12px;
+  
+}
+
+.text_preload_next {
+  height: 2.5rem;
+} 
+
+/* End of Styles HomeNextAttractions */
+
+
+/* Styles of Page Tour and Ticker */
+
+.img_tour_preload {
+  position: relative;
+  width: 731px;
+  height: 350px;
+  border-radius: 12px;
+}
+
+.img_tour_preload_duo {
+  position: relative;
+  width: 350px;
+  height: 165px;
+  border-radius: 12px;
+}
+.img_tour_preload_prices {
+  position: sticky;
+  top: 8%;
+  width: 353px;
+  height: 229px;
+  border-radius: 12px;
+}
+
+.img_tour_preload_products {
+  position: relative;
+  width: 730px;
+  height: 425px;
+  border-radius: 12px;
+}
+
+.img_tour_preload_app {
+  position: relative;
+  width: 1132px;
+  height: 365px;
+  border-radius: 20px;
+}
+
+/* End of Styles Page Tour and Ticker */
+
+/* Styles of Destinos */
+
+.img_destiny_flex {
+  position: relative;
+  width: 253px;
+  height: 260px;
+  border-radius: 14px;
+}
+
+.img_destiny_banner {
+  position: relative;
+  height: 530px;
+}
+
+.img_destiny_grid_1, .img_destiny_grid_2 {
+  background-color: #f5f5fb;
+  width: 100%;
+  height: 320px;
+  border-radius: 8px;
+  padding: 28px;
+}
+
+.img_destiny_grid_1 {
+  margin-top: 50px;
+}
+
+.img_destiny_grid_2 {
+  margin-bottom: 50px;
+}
+
+.img_destiny_popular {
+  width: 173px;
+  height: 270px;
+  border-radius: 12px;
+  margin: 0px 20px;
+}
+
+.img_destiny_popular_main {
+  width: 213px;
+  height: 425px;
+  border-radius: 12px;
+}
+
+.img_destiny_security {
+  width: 170px;
+  height: 270px;
+  border-radius: 8px;
+}
+
+.img_next_preload_app {
+  width: 1132px;
+  height: 365px;
+  border-radius: 20px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+
+.destiny_content_main {
+  padding-bottom: calc(82px + 51px);
+  padding-top: 10px;
+  position: relative;
+  bottom: 200px;
+}
+
+.DestinyKnowCity {
+  margin-top: -250px;
+  padding-bottom: calc(82px + 51px);
+}
+
+.content_destiny_knowCity {
+  width: 500px;
+}
+
+.destiny_popular_content {
+  padding-bottom: 100px;
+}
+
+.destiny_btn {
+  width: 270px;
+  height: 46px;
+  border-radius: 100px;
+}
+
+.destiny_what_do {
+    height: 792px;
+    margin-bottom: 225px;
+}
+
+.destiny_what_do_text {
+  max-width: 333px;
+  padding-top: 120px;
+}
+
+.destiny_what_do_btn {
+  margin-top: 25px;
+  border-radius: 100px;
+  width: 247px;
+  height: 46px;
+}
+
+.destiny_next {
+  padding-bottom: 100px;
+  height: 560px;
+}
+
+.destiny_next_text_1 {
+  width: 432px;
+  height: 175px;
+  margin-bottom: 1rem;
+}
+
+.destiny_next_text_2 {
+  width: 432px;
+  height: 252px;
+  margin-bottom: 2rem;
+}
+
+.destiny_security {
+  margin-top: 100px;
+  padding-bottom: 130px;
+}
+
+.destiny_security_text_1 {
+  width: 540px;
+  height: 175px;
+  margin-bottom: 1rem;
+  margin-left: 30px;
+}
+
+.destiny_security_text_2 {
+  width: 540px;
+  height: 150px;
+  margin-left: 30px;
+}
+
+/* End of Styles Destinos */
+
+/* Styles of Activities */
+
+.ActivitiesFilter {
+  margin-bottom: 3rem;
+  border-radius: 7px;
+  padding: 0 8px;
+  width: 261px;
+  height: 1197px;
+}
+
+.Activities_img {
+  border-radius: 12px;
+  width: 263px;
+  height: 210px;
+}
+
+.Activities_text {
+  width: 120px;
+  margin-left: 50px;
+}

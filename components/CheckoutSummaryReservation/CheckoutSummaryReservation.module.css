@@ -1,0 +1,96 @@
+.subtitle{
+    color: #2a2146;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+}
+
+.checkout_summary{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 0 30px;
+    margin-top: 1.5rem;
+}
+
+.card_summary{
+    padding-top: 30px;
+    /* border-bottom: 1px solid #d1cbe0; */
+}
+
+.card_summary_product_image{
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    padding-top: 30px;
+}
+
+.card_summary_product_name{
+    color: #2a2146;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.card_summary_simple_text{
+    color: #2a2146;
+    font-size: .875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.card_summary_free_cancel{
+    color: #2a2146;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.card_summary_free_cancel_description{
+    color: #2a2146;
+    opacity: .6;
+    font-size: .875rem;
+    line-height: 1.175rem;
+    font-weight: 400;
+}
+
+.card_summary_subtotal{
+    color: #2a2146;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.card_summary_price{
+    color: #034C43;
+    font-size: 2.25rem;
+    line-height: 1.375rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.card_summary_separator{
+    border-bottom: 1px solid #d1cbe0;
+}
+
+.weight_5{
+    font-weight: 500;
+}
+
+.weight_4{
+    font-weight: 400;
+}
+
+.row_controll{
+    padding-top: 24px;
+}
+
+.exclude_cupom{
+    cursor: pointer;
+}

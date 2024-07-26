@@ -1,0 +1,166 @@
+.option{    
+    border-bottom: 1px solid #ebe8f2!important;
+    border-width: 80%;
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;    
+}
+
+
+.option h5{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 1.5rem;
+}
+
+.option span{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.option img{
+    width: 26px;
+    border-radius: 50%;
+    margin-right: 7.5px;
+}
+
+
+.btnClose{
+    position: absolute;
+    right: 20px;
+}
+
+.dropdown_login {
+    background-color: #f6f5f8;
+    width: 375px;
+    right: 0px;   
+    width: 375px;
+    border-radius: 0!important;
+    border-top: 0!important;
+    border: 0;
+    background-clip: inherit;
+    margin-top: 0!important;
+    right: 0!important;
+    left: inherit;
+    padding: 0;
+    color: #000000;     
+}
+.nohover:focus{
+    color: #000000 !important;
+}
+
+.dropdownHeader{
+    height: 80px;    
+}
+
+.drop{
+    gap: 0.5rem;
+    display: flex;
+}
+
+.drop svg path{
+    stroke: #000000;
+    stroke-width: 1.5;
+}
+
+.button{
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+    border-radius: 5px;
+    height: 48px;
+    width: 100%;
+}
+
+.button:hover{
+    background-color: #10483e;
+    border-color: #10483e;
+}
+
+
+.form-control:focus-visible{
+    box-shadow: 0 0 0 0.25rem rgba(103,49,255,.25);
+}
+
+.formControlLogin{
+    border-radius: 5px;
+    height: 48px;
+    padding: 0.375rem 0.75rem;
+    color: #2a2146;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #1f6a5d3d !important;
+    display: block;
+    width: 100%;  
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;    
+    -webkit-appearance: none;
+    appearance: none;    
+}
+
+.formControlLogin:focus{
+    box-shadow: 0 0 0 0.25rem #c2d9d5;
+    border: 1px solid #1f6a5d3d !important;
+    outline: 0;
+}
+
+.link {
+    color: var(--primary);
+    text-underline-offset: 1px;
+    text-decoration-line: underline;
+    text-align: start;
+}
+.link:hover{
+    font-weight: 500;
+    color: var(--primary) !important;
+}
+
+.google_login {
+    width: 100% !important;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    box-shadow: none !important;    
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.create_account {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.create_account h1 {
+    color: #2a2146;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 575px) {
+    .create_account {
+        padding: 1.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: auto !important;
+    }
+}

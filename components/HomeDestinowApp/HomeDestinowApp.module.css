@@ -1,0 +1,97 @@
+.bg_app {
+    padding-bottom: 60px;
+}
+
+.main_app {
+    background-color: #034C43;
+    border-radius: 20px;
+}
+
+.main_app h3 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 3.175rem;
+    padding-bottom: 2.5px;
+}
+
+.main_app h3 strong{
+    font-weight: 700;
+}
+
+.main_app h3 span {
+    color: #00cc79;
+}
+
+.main_app_p {
+    color: #f6f5f8;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 2.25rem;
+}
+
+.control_main {
+    padding: 10px 80px 0;
+    align-items: center;
+}
+
+.bg-app .main-app .app-buttons {
+    display: flex;
+    grid-gap: 15px;
+    gap: 15px;
+}
+
+.em_breve {
+    color: #fff;
+    font-size: 1.5rem !important;
+    font-weight: 300;
+    line-height: 1 !important;
+    padding-bottom: 2.5px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .main_app_p {
+        font-size: 1rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .main_app h3 {
+        color: #fff;
+        font-size: 2.375rem;
+        font-weight: 300;
+        line-height: 2.5rem;
+        padding-bottom: 2.5px;
+        margin-bottom: .875rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .bg_app {
+        padding: 0 1rem 40px;
+        margin-top: 50px;
+    }
+
+    .control_main {
+        padding: 45px 0rem 0;
+        align-items: center;
+    }
+
+    .main_app h3 {
+        font-size: 2.125rem;
+        line-height: 2.5rem;
+        padding-bottom: 1rem;
+        width: 85%;
+        margin: auto;
+    }
+
+    .main_app_p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        width: 85%;
+        margin: auto;
+        padding-bottom: 2.25rem;
+    }
+
+}

@@ -1,0 +1,9 @@
+{
+    "forgot": {
+        "title": "Forgot your password?",
+        "subtitle": "Enter the email address associated with your account and we will send an email to reset your password.",
+        "email": "Email",
+        "errorEmail": "Please provide an email",
+        "send": "Send email"
+    }
+}

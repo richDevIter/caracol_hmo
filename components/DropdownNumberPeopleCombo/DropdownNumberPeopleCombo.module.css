@@ -1,0 +1,136 @@
+.input_people {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    height: 54px !important;
+    border: 1px solid #d1cbe0;
+    border-radius: 100px !important;
+    margin: 0.5rem 0;
+}
+
+.people_text {
+    padding: 0.375rem 0.75rem 0.375rem 3.25rem !important;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.input_calendar_custom {
+    position: absolute;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    line-height: 54px;
+    top: 0;
+}
+
+.dropdown_number_panel_content {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    z-index: 99;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+    padding: 16px 12px;
+    white-space: normal;
+    width: 100%;
+    font-size: .95rem;
+}
+
+.dropdown_number_panel_content_active {
+    opacity: 1;
+    visibility: visible;
+    left: auto;
+    right: 0;
+}
+
+.dropdown_number_people_text {
+    padding: 0.375rem 0.75rem 0.375rem 3.25rem !important;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown_number_qtyButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown_number_qtyButtons label {
+    font-weight: 500;
+    line-height: 36px;
+    padding-right: 5px;
+    display: block;
+    flex: 1 1;
+    color: #162c59;
+}
+
+.dropdown_number_qtyButtons span {
+    line-height: 8px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    font-weight: 700;
+}
+
+.dropdown_number_qtyButtons input {
+    outline: 0;
+    font-size: 16px;
+    font-size: 1rem;
+    height: 36px !important;
+    color: #162c59;
+    line-height: 36px;
+    margin: 0 !important;
+    padding: 0 5px !important;
+    border: none;
+    box-shadow: none;
+    pointer-events: none;
+    border: none !important;
+    width: 28px;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown_number_qtyDec,
+.dropdown_number_qtyInc {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 28px;
+    background-color: #f2f2f2;
+    -webkit-text-stroke: 1px #f2f2f2;
+    color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    display: inline-block;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .dropdown_number_panel_content_active {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 85vw;
+    }
+
+/*     .dropdown_number_panel_content_active::before {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.6);
+        height: 150vh;
+        width: 110vw;
+        position: absolute;
+        bottom: -100vw;
+        left: -22px;
+    } */
+}

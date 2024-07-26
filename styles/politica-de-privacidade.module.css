@@ -1,0 +1,53 @@
+@media (min-width: 576px) {
+    .estatic_page {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .estatic_page {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .estatic_page {   
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .estatic_page {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .estatic_page {
+        max-width: 1320px;
+    }
+}
+
+.display_2{
+    font-size: calc(1.475rem + 2.7vw);
+}
+
+.title{
+    font-family: "Trebuchet MS";
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .65rem;
+}

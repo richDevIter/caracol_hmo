@@ -1,0 +1,39 @@
+.h1{
+    font-size: 2.125rem;
+    margin-bottom: 0.25rem;
+}
+
+.h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.h5{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.lighted_background_post{
+    border: 2px solid #d1cbe0;
+    border-radius: 0.65rem;
+}
+
+.bg_footer_post_purchase{
+    background-color: #f5f5fb;
+    border-radius: 0 0 0.65rem 0.65rem!important;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 767px){
+    .h1 {
+        font-size: 1.125rem;
+        line-height: 20px;
+    }
+
+    .h4 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}

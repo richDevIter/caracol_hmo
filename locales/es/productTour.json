@@ -1,0 +1,52 @@
+{
+    "tour": {
+        "summary": "Resumen",
+        "otherInformation": "INFORMACIONES",
+        "highlights": "Destacados",
+        "details": "Detalles",
+        "contact": "Contacto",
+        "reviews": "Reseñas",
+        "informations": "Información",
+        "theExp": "La Experiencia",
+        "readMore": "Leer más",
+        "collapse": "Colapso",
+        "cancellation": "Cancelación",
+        "upTo24Hours": "Hasta 24 horas antes del check-in con reembolso del 100%.",
+        "pricePerGroup": "Precio por grupo desde:",
+        "pricePerAdult": "Precio por adulto desde:",
+        "pricePerAdult2": "Precio por adulto:",
+        "of": "desde",
+        "for": "por:",
+        "buyTickets": "Comprar Boletos",
+        "gallery": {
+            "seeAll": "Ver todas las",
+            "images": "imágenes"
+        },
+        "tourOptions": {
+            "tourAlert1": "¡El producto ya existe en el carrito!",
+            "tourAlert2": "¡Debe haber al menos un adulto en la compra!",
+            "tourStart": "Inicio del recorrido:",
+            "tourDuration": "Duración:",
+            "tourHours": "horas",
+            "tourSupplier": "Proveedor:",
+            "includes": "Incluye",
+            "notIncludes": "No incluye",
+            "addToCart": "Agregar al carrito",
+            "dropdown":{
+                "adults": "Adultos",
+                "children": "Niños",
+                "infants": "Infantes",
+                "young": "Joven",
+                "elderAge": "(+ 60 años)",
+                "halfEntry": "Otras Mitades",
+                "people": "Gente",
+                "fullEntry": "Completo",
+                "dateSelect": "Por favor seleccione una fecha",
+                "passengers": "Pasajeros"
+            }
+        },
+        "discountRules": "Reglas de Descuento",
+        "howToGet": "Como llegar",
+        "accessRules": "Reglas de Acceso"
+    }
+}

@@ -1,0 +1,58 @@
+.input_group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.form_control {
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 15px 50px 15px 21px;
+  height: 48px !important;
+  border: 1px solid #d1cbe0;
+  position: relative;
+  width: 100%;
+}
+
+.form_control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #b398ff;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(103,49,255,.25);
+}
+
+.input_group_append {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+}
+
+.input_group_button {
+  position: relative;
+  background-color: var(--primary);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: block;
+  color: #fff !important;
+  border: none;
+  cursor: pointer;
+}
+
+.input_group_button:hover {
+  color: #fff;
+  background-color: #10483e;
+  border-color: #5227cc;
+}
+
+.input_group_svg {
+  position: absolute;
+  width: 13px;
+  height: 38px;
+  top: 0;
+  right: 11px;
+}

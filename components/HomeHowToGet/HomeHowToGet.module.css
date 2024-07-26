@@ -1,0 +1,89 @@
+.bg_how_to_get_caracol {
+    background-color: #fff;
+    height: 43rem;
+    max-height: 677px;
+    padding: 1rem;
+}
+
+.bg_how_to_get_caracol svg {
+    width: 55px;
+    height: 73px;
+}
+
+.bg_how_to_get_caracol span {
+    margin-left: 1.2rem;
+    font-size: 2.5rem;
+    vertical-align: top;
+    font-weight: 700;
+}
+
+.bg_how_to_get_caracol p {
+    margin-left: 0;
+}
+
+.bg_how_to_get_caracol h6 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.bg_how_to_get_caracol ul {
+    margin-bottom: 1.5rem;
+}
+
+.bg_how_to_get_caracol ul li {
+    list-style: inside;
+    margin-left: 1.5rem;
+    margin-bottom: 0.15rem;
+}
+
+.how_to_get_caracol {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--primary);
+    margin-left: 18%;
+}
+
+.how_to_get_top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.how_to_get_description {
+    margin-bottom: 1.5rem;
+}
+
+.top {
+    margin-bottom: 3rem;
+}
+
+.top p {
+    margin-left: 0;
+}
+
+.bottom p {
+    margin-left: 0;
+}
+
+.bottom ul {
+    margin-bottom: 1.5rem;
+}
+
+.bottom ul li {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0.15rem;
+}
+
+@media (min-width: 1921px) {
+    .bg_how_to_get_caracol iframe {
+        max-height: 620px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .bg_how_to_get_caracol iframe {
+        max-height: 325px !important;
+    }
+}

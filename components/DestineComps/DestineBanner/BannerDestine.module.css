@@ -1,0 +1,53 @@
+.banner_home {
+    width: 100%;
+    height: 530px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_home h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 3.75rem;
+}
+
+.banner_home h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.125rem;
+    line-height: 2.125rem;
+}
+
+.banner_home h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+}
+
+.bg_home_size {
+    height: calc(100% - 200.5px);
+}
+
+@media (max-width: 767px) {
+    .banner_home {
+        width: 100%;
+        height: 370px;
+    }
+
+    .banner_home h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .banner_home h3 {
+        font-size: 1.5rem;
+        line-height: 1.125rem;
+    }
+
+    .bg_home_size {
+        height: calc(100% - 90px) !important;
+    }
+}

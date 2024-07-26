@@ -1,0 +1,30 @@
+.breadcrumbs span {
+    color: #58565d;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.breadcrumbs span:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    .breadcrumbs {
+        margin: 1rem 0;
+    }
+
+    .breadcrumbs span {
+        color: #58565d;
+        font-size: .7rem;
+    }
+}

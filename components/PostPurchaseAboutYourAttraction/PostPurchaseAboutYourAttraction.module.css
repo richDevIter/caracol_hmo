@@ -1,0 +1,56 @@
+.bg_image_post {
+    width: 180px;
+    height: 100px;
+}
+
+.card_post_purchase {
+    padding: 2rem;
+}
+
+.image{
+    border-radius: 0.65rem;
+}
+
+.h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card_post_purchase{
+    margin: 0!important;
+    padding: 1.5rem 2rem!important;
+}
+
+.card_space {
+    margin-top: 26px;
+}
+
+.radius{
+    border-radius: 0.65rem !important;
+    border: 2px solid #d1cbe0;
+    overflow: hidden;
+}
+
+.radius h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.radius p {
+    color: #58565d;
+}
+
+@media (max-width: 767px){
+    .h4{
+        font-size: 1.125rem;
+    }
+    
+    .card_post_purchase {
+        padding: 1.5rem 1rem!important;
+    }
+
+    .image{
+        max-height: 90px;
+    }
+}

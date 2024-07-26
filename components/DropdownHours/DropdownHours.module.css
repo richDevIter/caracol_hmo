@@ -1,0 +1,75 @@
+.panelHours {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    height: 54px !important;
+    border: 1px solid #d1cbe0;
+    border-radius: 100px !important;
+    margin: 0.5rem 0;
+}
+
+.panelHours span {
+    font-size: 1rem;
+    margin-left: 3.25rem;
+    color: #FFFFFF;
+}
+
+.hoursOptions {
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s;
+    position: absolute;
+    top: 44px;
+    left: auto;
+    right: 0;
+    z-index: 99;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+    padding: 8px;
+    white-space: normal;
+    width: 100%;
+    font-size: .95rem;
+}
+
+.hoursOptions h6 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #000000;
+}
+
+.hoursOptions small {
+    text-transform: uppercase;
+    font-size: .6rem;
+    color: #000000;
+}
+
+.hoursOptions p {
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    color: #000000;
+}
+
+.hoursBorder {
+    border: 1px solid #707070;
+    border-radius: .25rem;
+    line-height: .875rem;
+    text-align: center;
+    padding: .25rem;
+    cursor: pointer;
+    margin-top: .375rem;
+}
+
+.hoursBorder:hover {
+    opacity: .8;
+}
+
+.size-icon-hours {
+    font-size: 22px !important;
+    width: 1rem;
+    position: absolute;
+}

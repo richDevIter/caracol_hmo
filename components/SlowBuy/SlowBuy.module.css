@@ -1,0 +1,221 @@
+.bg_slow_buy {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    max-height: 100%;
+    min-height: 700px;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.bg_slow_buy hr {
+    margin: 1rem 0;
+}
+
+.qtyDec,
+.qtyInc {
+    background-color: var(--primary);
+    color: #fff;
+    width: 1.875rem;
+    height: 2.125rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.qtyDec span,
+.qtyInc span {
+    font-size: 1.25rem !important;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2.5px;
+}
+
+.qtyDec:active span,
+.qtyInc:active span {
+    position: relative;
+    left: 1px;
+    bottom: 1.5px;
+}
+
+.calendar_input input {
+    border: none;
+    border-bottom: 1px solid #707070;
+    padding: 0.5rem 0.75rem 0.375rem 3em !important;
+    font-size: 18px;
+    color: #707070;
+    border-radius: 0 !important;
+}
+
+.calendar_input input::placeholder {
+    color: #707070;
+    opacity: .75;
+}
+
+.calendar_input svg path {
+    fill: var(--primary);
+}
+
+.modality_input {
+    border: none;
+    border-bottom: 1px solid #707070;
+    padding: 0.5rem 0.75rem 0.375rem 0.375em !important;
+    font-size: 18px;
+    color: #707070;
+}
+
+.slow_buy_title {
+    font-size: 23px;
+    color: #707070;
+    font-weight: 600;
+    margin-bottom: 15px;
+    width: 85%;
+}
+
+.slow_buy_description {
+    height: 100%;
+    padding-right: 20px;
+    text-align: justify;
+    padding-bottom: 30px;
+    overflow: auto;
+    max-height: 600px;
+}
+
+.slow_buy_description p,
+.slow_buy_description span {
+    color: #707070;
+}
+
+.slow_buy_people {
+    padding: 5px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #707070;
+}
+
+.slow_buy_people h4 {
+    font-size: 1.5rem;
+}
+
+.qtyButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.flex_ajuste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+}
+
+.price {
+    text-align: right;
+    width: 180px;
+}
+
+.buy_button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buy_button button {
+    color: #fff;
+    padding: 0.2rem 5rem;
+    font-size: 22px;
+    border-radius: .65rem;
+}
+
+.select_date {
+    margin-bottom: 50px;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.warning {
+    background-color: var(--primary);
+    opacity: 0.56;
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+
+.warning p {
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 13.5px;
+    color: #FFF;
+}
+
+.box_info {
+    font-size: 0.875rem;
+    color: #fff;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 10px 24px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+
+.prices_modal label,
+.prices_modal h5,
+.prices_modal span {
+    color: #707070 !important;
+    font-size: 16px;
+}
+
+
+.prices_modal small {
+    color: #707070 !important;
+    font-size: 11px;
+}
+
+.prices_modal label,
+.prices_modal h5 {
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.qtyButtons input {
+    width: 60px !important;
+    outline: 0;
+    font-size: 16px;
+    font-size: 1rem;
+    text-align: center;
+    height: 36px !important;
+    color: #162c59;
+    line-height: 36px;
+    margin: 0 !important;
+    padding: 0 5px !important;
+    border: none;
+    box-shadow: none;
+    pointer-events: none;
+    display: inline-block;
+    border: none !important;
+}
+
+@media (max-width: 767px) {
+    .slow_buy_people {
+        padding: 0;
+        border-left: none;
+    }
+
+    .bg_slow_buy {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .buy_button {
+        display: flex;
+        justify-content: center;
+    }
+}

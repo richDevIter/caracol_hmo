@@ -1,0 +1,14 @@
+.calendar_birthday {
+    height: 48px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    border: 1px solid #ced4da;
+}
+
+.calendar_birthday:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #b398ff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(103,49,255,.25);
+}

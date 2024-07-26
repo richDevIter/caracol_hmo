@@ -1,0 +1,16 @@
+{
+    "myActivities": "Mis Actividades",
+    "nextActivities": "Próximas Actividades",
+    "performedActivities": "Actividades Realizadas",
+    "seeMore": "Ver más actividades",
+    "card": {
+        "date": "Fecha:",
+        "activityStart":"Inicio de actividad:",
+        "confirmed": "Confirmado",
+        "concluded": "Concluido",
+        "canceled": "Cancelado",
+        "cancellation": "Cancelación gratis",
+        "upTo": "Hasta 24 horas antes del check-in con ",
+        "refund": "reembolso del 100%"
+    }
+}

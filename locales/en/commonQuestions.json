@@ -1,0 +1,44 @@
+{
+    "title": "How can we help?",
+    "info": {
+        "informations": "Informations",
+        "whatsTheProblem": "Tell us what is your problem and we will find the fastest way to help.",
+        "howIdentify": "How do I identify the guide or vehicle for my tour?",
+        "theGuide": "Guide and vehicle vary by tour. The guide has a passenger list and will look for passengers in the hotel lobby. Please do not wait outside the hotel or in the room.",
+        "theGuide2": "If you prefer, call our Customer Service and confirm the identification details of the guide or vehicle.",
+        "howDoiKnow": "How do I know if there is pickup up in my hotel?",
+         "youllFind": "You will find the pickup list on the order checkout page. You need to choose the boarding point before payment.",
+         "youllFind2": "If your hotel is not on the list, please call our Customer Service, where our staff will help you find the nearest pickup point to your hotel.",
+         "whatTime": "What time will you pick me up? Is it the same start time of the tour?",
+         "boardingTime": "Pickup time and tour start time are not the same thing. Tour start time is the estimated time after all passengers have boarded.",
+         "boardingTime2": "Be ready in the lobby of your pickup point at least 5 minutes before pickup time.",
+         "boardingVehicle": "How do I know if the boarding vehicle has passed or if it is late?",
+         "callUs": "Please call our Customer Service that our staff will confirm the location of the vehicle.",
+         "doINeedMyPassport": "Do I need to bring a passport or document for the tour?",
+         "activityRules": "Each activity has its own specific rules, so check the description and voucher. If in doubt, contact the Customer Service.",
+         "whatShouldIUse": "What should I wear or bring on the tour? Is there any mandatory dress code?",
+         "noRule": "There is no general rule of what to take or use, but we recommend that you check the description and the voucher. Each activity is different, but we recommend that you bring a document, money and animation for any tour ",
+         "veganOptions": "Do you have options for vegetarians, celiac or lactose allergic?",
+         "weRecommend": "If there is no observation in the description of the activity, we recommend that you contact the Service Center.",
+         "badWeather": "Is the tour confirmed even in bad weather and heavy rain?",
+         "cancelPolicy": "The cancellation policy for weather conditions must be on the product description and voucher. If the tour is canceled, we will contact you to explain the situation. The supply of raincoats is optional by the operator of the activity.",
+         "timeInSpot": "How long do we usually stay at each tourist attraction?",
+         "activityTime": "The average time in each activity varies by activity and day.",
+         "returnTime": "What is the return time to the dropoff point?",
+         "dropoffTime": "Dropoff times vary according to the route of the dropoff points and the traffic conditions of the day. Talk to our Customer Service."
+    },
+    "booking": {
+        "bookingManage": "Manage a reservation",
+        "bookingManage2": "Change dates, add activities, or cancel your online reservation easily",
+        "howDoiDo": "How do I change or confirm a reservation?",
+        "verify": "Check your reservation by accessing",
+        "myActivities": " My Activities"
+    },
+    "contact": {
+        "contactUs": "Contact",
+        "getInContact": "Contact Customer Service immediately, send your questions via e-mail, or make changes to your existing reservations.",
+        "clickToCall": "Click to call",
+        "clickToTalk": "Click to chat",
+        "sendEmail": "Send e-mail"
+    }
+}

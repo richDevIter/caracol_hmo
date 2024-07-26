@@ -1,0 +1,76 @@
+.bg_next_destine {
+    padding-bottom: 100px;
+}
+
+.popular_tour {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.popular_tour h3 {
+    color: #2a2146;
+    font-size: 2.75rem;
+    line-height: 3.313rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.popular_tour p {
+    width: 90%;
+    color: #58565d;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.img_turistico {
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.col_span_4_custom {
+    width: 39%;
+}
+
+.col_span_8_custom {
+    width: 61%;
+}
+
+@media (max-width: 767px) {
+    .bg_next_destine {
+        margin-top: -30px;
+        padding-bottom: 25px;
+    }
+
+    .popular_tour h3 {
+        width: 95%;
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .popular_tour p {
+        width: 100%;
+        color: #58565d;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        font-weight: 400;
+        margin-bottom: 2.5rem;
+    }
+
+    .img_turistico {
+        width: 100%;
+        height: 150px;
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        border-radius: 6.8547px;
+    }
+}

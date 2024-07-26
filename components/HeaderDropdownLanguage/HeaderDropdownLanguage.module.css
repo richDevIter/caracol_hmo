@@ -1,0 +1,42 @@
+.option {
+    border-bottom: 1px solid #ebe8f2 !important;
+    border-width: 80%;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.option span {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.option img {
+    width: 26px;
+    border-radius: 50%;
+    margin-right: 7.5px;
+}
+
+.dropdown {
+    background-color: #f6f5f8;
+    width: 180px;
+    right: 0px;
+}
+
+.dropdownHeader {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+.option:hover {
+    color: var(--primary);
+    opacity: .75;
+}

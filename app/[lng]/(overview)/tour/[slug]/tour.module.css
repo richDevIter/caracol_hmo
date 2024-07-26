@@ -1,0 +1,130 @@
+.tour_title_h1 {
+    color: rgb(42, 33, 70);
+    font-size: 2.25rem;
+    font-weight: 500;
+    padding: 12px 0px;
+    width: 70%;
+    margin: 0px;
+    line-height: 1.2;
+}
+
+.tour_title_span {
+    color: rgb(125, 122, 132);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.tour_menu {
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px solid var(--primary);
+    background-color: #f5f5fb;
+    padding: 10px 0;
+}
+
+.tour_experience h3,
+.tour_about_us h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.tour_experience,
+.tour_about_us {
+    padding-top: 2.375rem;
+}
+
+/* .tour_about_us {
+    padding-bottom: 2.375rem;
+} */
+
+.tour_btn_see_more {
+    font-size: 1.125rem;
+    font-weight: 500;
+    background-color: initial;
+    border: none;
+    color: var(--primary);
+    padding: 0;
+    margin: 5px 0;
+}
+
+.tour_side_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5fb;
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    border-radius: 12px;
+    padding: 2.375rem 2rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8%;
+}
+
+.tour_side_card h5 {
+    font-size: 1.375rem;
+    margin-bottom: 0.5rem;
+}
+
+.tour_text_price {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #6c757d!important;
+}
+
+.tour_text_price b {
+    font-size: 1.75rem;
+    text-decoration: line-through !important;
+}
+
+.tour_side_price small {
+    font-size: 1rem;
+}
+
+.tour_side_price b {
+    color: var(--primary);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+}
+
+.tour_side_btn_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100px;
+    height: 54px;
+
+}
+
+
+@media (max-width: 767px) {
+    .tour_title_h1 {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        width: 100%;
+    }
+
+    .tour-gallery-mobile .tour-img-mobile {
+        position: relative;
+        width: 100%;
+        height: 330px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        border-radius: 12px;
+    }
+
+    .tour_side_card {
+        margin: 2rem 0 0;
+    }
+}

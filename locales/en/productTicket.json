@@ -1,0 +1,45 @@
+{
+    "tour": {
+        "summary": "Resumo",
+        "otherInformation": "OTHER INFORMATION",
+        "highlights": "Destaques",
+        "details": "Detalhes",
+        "contact": "Contato",
+        "reviews": "Avaliações",
+        "informations": "Informações",
+        "theExp": "A Experiência",
+        "readMore": "Leia mais",
+        "collapse": "Recolher",
+        "cancellation": "Cancelamento",
+        "upTo24Hours": "Até 24 horas de antecedência do checkin com 100% de reembolso.",
+        "pricePerAdult": "Preço por adulto a partir de:",
+        "buyTickets": "Comprar ingressos",
+        "gallery": {
+            "seeAll": "Veja todas as",
+            "images": "imagens"
+        },
+        "tourOptions": {
+            "tourAlert1": "Produto já existe no carrinho!",
+            "tourAlert2": "Deve haver ao menos um adulto na compra!",
+            "tourStart": "Início do Tour:",
+            "tourDuration": "Duração:",
+            "tourHours": "horas",
+            "tourSupplier": "Fonecedor:",
+            "includes": "Inclui",
+            "notIncludes": "Não Inclui",
+            "addToCart": "Adicionar ao carrinho",
+            "dropdown": {
+                "adults": "Adultos",
+                "children": "Crianças",
+                "infants": "Infantes",
+                "young": "Jovem",
+                "elderAge": "(+ 60 anos)",
+                "halfEntry": "Outras Meias",
+                "people": "Pessoas",
+                "fullEntry": "Inteira",
+                "dateSelect": "Favor selecionar uma data",
+                "passengers": "Passageiros"
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "title": "Como podemos ajudar?",
+    "info": {
+        "informations": "Informações",
+        "whatsTheProblem": "Diga qual é o problema e encontraremos a maneira mais rápida de ajudar.",
+        "howIdentify": "Como identifico o guia ou veículo do meu tour?",
+        "theGuide": "O guia e o veículo variam conforme o tour. O guia tem uma lista de passageiros e procurará pelos passageirosno lobby do hotel. Por favor não espere na entrada do hotel, nem no quarto.",
+        "theGuide2": "Se preferir, ligue para a nossa Central de Atendimento e confirme os detalhes de identificação do guia ou veículo.",
+        "howDoiKnow": "Como eu sei se me buscam no meu hotel?",
+         "youllFind": "Você encontrará a lista de locais de embarque na página de finalização de pedido. Você precisa escolher o ponto de embarque antes do pagamento.",
+         "youllFind2": "Caso seu hotel não se encontre na lista, ligue para a nossa Central de Atendimento que nossa equipe vai te ajudar a achar o ponto de embarque mais próximo do seu hotel.",
+         "whatTime": "Que horas vão me buscar? É o mesmo horário de início do tour?",
+         "boardingTime": "Horário de embarque e o horário de início do tour não são a mesma coisa. Horário de início do tour é o horário previsto depois que todos os passageiros foram embarcados.",
+         "boardingTime2": "Planeje estar no lobby do seu ponto de embarque pelo menos 5 minutos antes do horário de embarque.",
+         "boardingVehicle": "Como eu sei se o veículo de embarque já passou ou se está atrasado?",
+         "callUs": "Por favor ligue para a nossa Central de Atendimento que nossa equipe vai confirmar a localização do veículo.",
+         "doINeedMyPassport": "Preciso levar passaporte ou algum documento para o tour?",
+         "activityRules": "Cada atividade tem suas regras específicas, então verifique o descritivo e o voucher. Na dúvida, entre em contato com a Central de Atendimento.",
+         "whatShouldIUse": "O que devo usar ou levar no tour? Existe algum traje obrigatório?",
+         "noRule": "Não existe uma regra geral do que levar ou usar, mas recomendamos que verifique o descritivo e o voucher. Cada atividade é diferente, mas recomendamos que você leve para qualquer tour um documento, dinheiro e animação ",
+         "veganOptions": "Tem opções para vegetarianos, celíacos ou alérgicos a lactose?",
+         "weRecommend": "Caso não exista observação no descritivo da atividade, recomendamos que você entre em contato com a Central de Atendimento.",
+         "badWeather": "O tour está confirmado mesmo com o mau tempo e chuva forte?",
+         "cancelPolicy": "A política de cancelamento por condições meteorológicas deve estar no descritivo do produto e no voucher. Caso o tour seja cancelado, entraremos em contato com você para avisar da situação. O fornecimento de capa de chuva é facultativo pela operadora da atividade.",
+         "timeInSpot": "Quanto tempo costumamos ficar em cada ponto turístico?",
+         "activityTime": "O tempo médio em cada atividade varia conforme a atividade e o dia.",
+         "returnTime": "Qual horário de retorno ao ponto de desembarque?",
+         "dropoffTime": "O horário de desembarque varia conforme a rota dos pontos de desembarque e as condições de trânsito do dia. Fale com nossa Central de Atendimento."
+    },
+    "booking": {
+        "bookingManage": "Administre uma reserva",
+        "bookingManage2": "Altere datas, adicione atividades ou cancele sua reserva on-line facilmente.",
+        "howDoiDo": "Como faço para alterar ou confirmar uma reserva?",
+        "verify": "Verifique a sua reserva acessando as",
+        "myActivities": " Minhas Atividades"
+    },
+    "contact": {
+        "contactUs": "Entre em contato",
+        "getInContact": "Entre em contato com o Serviço de Apoio ao Cliente imediatamente.",
+        "clickToCall": "Clique para chamar",
+        "clickToTalk": "Clique para conversar",
+        "sendEmail": "Enviar e-mail"
+    }
+}

@@ -1,0 +1,256 @@
+.tour_modalities .modalities_data {
+    border: 2px solid var(--primary);
+    border-radius: 12px;
+    height: 100%;
+}
+
+.tour_modalities .tour_modalities_top {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 25px 0;
+    padding-bottom: 25px;
+}
+
+.tour_modalities_top {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 25px 0;
+    padding-bottom: 25px;
+}
+
+.modalities_info h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #2a2146;
+    margin-bottom: 0.75rem;
+}
+
+.tour_modalities .tour_modalities_bottom {
+    border-radius: 0 0 12px 12px;
+    padding: 0 25px 25px;
+}
+
+.tour_modalities_bottom h5 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.tour_modalities_bottom li {
+    font-size: .75rem;
+}
+
+.tour_modalities_bottom .included {
+    list-style-image: url("../../assets/icons/bi_check.svg");
+    margin-left: 20px;
+}
+
+.tour_modalities_bottom .excluded {
+    list-style-image: url("../../assets/icons/bi_x.svg");
+    margin-left: 20px;
+}
+
+.tour_modalities .modalities_calendar_people {
+    background-color: var(--shadow);
+    height: 100%;
+    border: 2px solid var(--shadow);
+    border-left: none;
+    padding: 25px 1rem 30px;
+    border-radius: 0 12px 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modalities_calendar_people .modalities_price {
+    text-align: center;
+}
+
+.modalities_calendar_people .modalities_price p {
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #fff;
+    margin-bottom: 11px;
+}
+
+.modalities_price small {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+    color: #fff;
+}
+
+.modalities_price b {
+    color: var(--secondary);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+}
+
+.panel_dropdown {
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+    font-size: .875rem;
+    border-radius: 3px;
+    margin: 0 0 0;
+}
+
+.input_select {
+    width: 100%;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    height: 54px!important;
+    border: 1px solid #d1cbe0;
+    border-radius: 100px!important;
+    background-color: initial;
+    margin: 0.5rem 0;
+    padding: 0.375rem 0.75rem 0.375rem 3.25rem!important;
+    display: flex;
+    align-items: center;
+    appearance: none;
+}
+
+.input_select option {
+    color: #2a2146;
+    padding: 0 !important;
+}
+
+.input_time_custom {
+    position: absolute;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    left: 20px;
+}
+
+.input_calendar_custom {
+    position: absolute;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.tour_modality_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100px;
+    height: 54px;
+    width: 100%;
+}
+
+.modalities_info_weekDay_enable,
+.modalities_info_weekDay_disable {
+    color: #fff;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0.375rem 0.5rem;
+    width: 2.5rem;
+}
+
+.modalities_info_weekDay_enable {
+    background-color: #034C43;
+}
+
+.modalities_info_weekDay_disable {
+    background-color: #707070;
+}
+
+.modalities_checkout {
+    background-color: var(--shadow);
+    border: 2px solid var(--shadow);
+    border-radius: 0 0 12px 12px;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.bg_info_checkout span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bg_info_checkout span strong {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.bg_ready_choose span,
+.bg_ready_choose small {
+    color: #FFFFFF;
+}
+
+.bg_ready_choose {
+    line-height: 1.375rem;
+}
+
+.bg_ready_choose span {
+    font-size: 20px;
+}
+
+.bg_peoples_choose::after {
+    content: " - ";
+}
+
+.bg_peoples_choose:last-child:after {
+    content: "";
+}
+
+@media (max-width:1023px){
+    .tour_modalities .tour_modalities_bottom {
+        border-radius: 12px 12px 0 0;
+        padding: 0 20px 20px;
+    }
+    .tour_modalities .modalities_data {
+        border: 2px solid var(--primary);      
+    }
+
+    .tour_modalities .modalities_calendar_people {
+        border-radius: 12px 12px 0 0;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .tour_modalities_top {
+        margin: 20px 20px 0 !important;
+        padding-bottom: 15px !important;
+    }
+
+    .tour_modalities .tour_modalities_bottom {
+        border-radius: 0 0 12px 12px;
+        padding: 0 20px 20px;
+    }
+    
+    .tour_modalities .modalities_calendar_people {
+        background-color: var(--shadow);
+        height: 100%;
+        border: 2px solid var(--shadow);
+        border-left: none;
+        padding: 25px 20px 30px;
+        border-radius: 12px 12px 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tour_modalities .modalities_data {
+        border: 2px solid var(--primary);
+        height: 100%;
+    }
+
+    .modalities_info span {
+        font-size: .875rem;
+        margin-top: 0.15rem;
+        font-weight: 500;
+    }
+}

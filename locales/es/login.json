@@ -1,0 +1,14 @@
+{
+    "login": "Login",
+    "makeLogin": "Hacer Login",
+    "or": "o",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "send": "Entrar",
+    "forgotPass": "¿Olvidaste tu contraseña?",
+    "notRegistered": "¿No tienes una cuenta?",
+    "register": "Haz tu registro",    
+    "manage": "Administrar Cuenta",
+    "activities": "Mis Actividades",
+    "leave": "Salir"
+}

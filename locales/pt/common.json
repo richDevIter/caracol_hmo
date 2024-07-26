@@ -1,0 +1,14 @@
+{
+    "home": {
+      "title": "Titulo HOME 007",
+      "Home description": "Descrição HOME"
+    },
+    "about": {
+      "About title": "About title",
+      "About description": "About description"
+    },
+    "header": {
+      "Home": "Home",
+      "About": "About"
+    }
+  }

@@ -1,0 +1,121 @@
+.accordion {
+    border: 2px solid #d1cbe0!important;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;   
+}
+
+.accordion_body {
+    padding: 2rem 0 1rem;
+    border-bottom: 1px solid #d1cbe0;
+    margin: 0 2rem;
+}
+
+
+.form_control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.65rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #2a2146;
+    height: 100%;
+    height: 54px;
+    border: 2px solid #d1cbe0;
+    border-radius: 7px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.form_control:focus-visible {
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(103,49,255,.25);
+}
+
+.warning {
+    color: #58565d;
+    font-size: .875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    text-align: right;
+    margin: 10px 0;
+}
+
+#FormControlInput1Estado{
+    height: 100% !important;
+}
+
+.form_input_check {
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-appearance: none;
+    appearance: none;
+    float: left;
+    border-radius: 50%;
+    width: 1.125rem;
+    height: 1.125rem;
+    bottom: 1.5px;
+    position: relative;
+    min-width: 1.125rem;
+}
+
+.form_input_check:checked {
+    background-color: #034C43;
+    border-color: #034C43;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='3' d='M6 10l3 3 6-6'/%3E%3C/svg%3E");
+}
+
+.form_input_check:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(103,49,255,.25);
+}
+
+.form_label_check {
+    color: #58565d;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    display: contents;
+}
+
+.bg_checkout_back_next {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.125rem;
+    cursor: pointer;
+}
+
+.bg_checkout_back_next button {
+    width: 190px;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.form_label_link {
+    text-decoration: underline;
+    color: #034C43;
+    cursor: pointer;
+    text-underline-offset: 2px;
+    transition: 0.3;
+}
+.form_label_link:hover {    
+    color: #10483e;
+}

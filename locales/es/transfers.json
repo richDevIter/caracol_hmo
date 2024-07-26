@@ -1,0 +1,18 @@
+{
+    "duration": "Duración",
+    "hours": "hours",
+    "departure": "Salida",
+    "at": "en",
+    "hrs": "h",
+    "seats": "Asientos",
+    "peoplePerVehicle": "personas por vehículo",
+    "handbag": "bolso por persona",
+    "suitcase": "maleta por persona",
+    "perPeople": "por persona, solo ida",
+    "perVehicle": "por vehículo, solo ida",
+    "addToCart": "Añadir al carrito",
+    "brazil": "Brazil",
+    "foundTransfers": "transferencias encontradas",
+    "seeMore": "Ver más transferencias",
+    "collapseAct": "Ocultar transferencias"
+}

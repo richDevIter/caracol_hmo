@@ -1,0 +1,243 @@
+.input_group {
+    height: 60px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+
+.input_group_prepend {
+    position: absolute;
+    z-index: 1;
+    border: none;
+}
+
+.input_group_append {
+    position: absolute;
+    z-index: 1;
+    border: none;
+    right: 1rem;
+}
+
+
+.input_group_text {
+    height: 60px;
+    border-radius: 100px 0 0 100px;
+    background-color: initial;
+    padding: 0.375rem 0 0.375rem 1rem;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.input_search_text {
+    padding: 0 50px;
+    border-radius: 50px;
+    height: auto;
+    border: 1px solid #ced4da;
+}
+
+.input_search_text:focus {
+    outline: 2px solid #d1cbe0;
+    z-index: 0;
+}
+
+
+.tab_space {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    min-height: 150px;    
+    border-radius: 0 1rem 1rem 1rem;
+    border: none;
+    z-index: 1;
+}
+
+.nav_tabs {
+    height: 75px;
+    border: none;
+    position: relative;
+    bottom: -1px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-radius: 1rem 0 0 0;
+}
+
+.bg_tab_options_activity {
+    border-radius: 1rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bg_tab_options_activity span,
+.bg_tab_options_transfer span {
+    display: flex;
+    gap: .5rem;
+}
+
+.bg_tab_options_transfer {
+    border-radius: 0 1rem 0 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bg_tab_options_content {
+    border-radius: 0 1rem 1rem 1rem;
+    position: relative;
+}
+
+.bg_tab_options_content::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+  height: 90px;
+  border-radius: 50% 0% 0% 50%;
+  opacity: 0.25;
+  filter: blur(80px);
+  background-color: var(--primary);
+    /* box-shadow: 0px 0px 50px 10px rgba(103, 49, 255, 0.5); */
+}
+
+.bg_tab_autocomplete {
+    border: 1px solid #ced4da;
+    padding-left: 50px;
+    border-radius: 50px;
+    width: 100%;
+    padding-right: 3rem;
+}
+
+.bg_tab_autocomplete:focus {
+    outline: 2px solid #d1cbe0;
+    z-index: 0;
+}
+
+.bg_tab_autocomplete:focus {
+    outline: 2px solid #d1cbe0;
+    z-index: 0;
+}
+
+.bg_tab_count {
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+    width: 100%;
+    padding: 0 2rem;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.bg_tab_btn_count {
+    height: 60px;
+    padding: 12px 12px;
+}
+
+.bg_tab_btn_count_append {
+    position: absolute;
+    z-index: 1;
+    border: none;
+    right: 0rem;
+}
+
+.bg_tab_search_btn {
+    height: 60px;
+    padding: 12px 6px;
+}
+
+.bg_tab_search_menu {
+    box-shadow: 0 8px 8px 2px rgb(0 0 0 / 33%);
+    max-height: 380px;
+    overflow: overlay;
+    width: 94% !important;
+    margin: 0 25px;
+    border-radius: 0 !important;
+}
+
+.bg_tab_icon_male svg {
+    color: #000;
+    position: absolute;
+    z-index: 2;
+    -webkit-transform: translate(5px,18px);
+    transform: translate(5px,18px);
+    font-size: 22px;
+    left: 26px;
+    height: 22px;
+}
+
+.bg_tab_options {
+    position: relative;
+    top: -112.5px;
+    /* height: 249px; */
+}
+
+@media (max-width: 1024px) {
+    .bg_tab_options {
+        position: relative;
+        top: -92.5px;
+        /* height: 249px; */
+    }
+    .tab_space {
+        height: auto;
+        padding: 1.5rem 0;
+    }
+    .bg_tab_search_btn {
+        height: 60px;
+        padding: 12px 6px;
+        font-size: 0.875rem; /* 14px */
+        line-height: 1.25rem; /* 20px */
+    }
+    
+}
+
+@media (max-width: 767px) {
+
+    .bg_tab_options_content::after {
+        display: none;
+    }
+
+    .nav_tabs {
+        width: 100%;
+    }
+
+    .nav_tabs span {
+        font-size: .875rem;
+    }
+
+    .bg_tab_options_content {
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .input_group_text,
+    .input_group {
+        height: 3rem;
+        margin-bottom: .875rem;
+    }
+
+    .bg_tab_search_btn,
+    .bg_tab_btn_count {
+        height: 3rem;
+    }
+
+    .tab_space {
+        height: auto;
+        padding: 1.5rem 0;
+    }
+
+    .bg_tab_search_menu {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .bg_tab_options {
+        position: relative;
+        top: -72.5px;
+        /* height: 249px; */
+    }
+}
+

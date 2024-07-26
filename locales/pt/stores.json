@@ -1,0 +1,16 @@
+{
+    "title": "Lojas",
+    "filter": {
+        "select": "Filtros Selecionados",
+        "type": "Tipos de Atividades",
+        "location": "Localização",
+        "clear": "Limpar todos"
+    },
+    "storeList": {
+        "phone": "Telefone:",
+        "page": "Página",
+        "show": "Mostrando",
+        "any": "Nenhuma loja encontrada.",
+        "social": "Mídias Sociais"
+    }
+}

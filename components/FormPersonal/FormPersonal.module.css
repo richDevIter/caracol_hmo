@@ -1,0 +1,76 @@
+.form_control {
+    height: 48px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form_control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #b398ff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(103,49,255,.25);
+}
+
+.form_check {
+    width: 1em;
+    height: 1em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+}
+
+.form_check:checked {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='2' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.password_strength_container {
+    grid-gap: 2px;
+    gap: 2px;
+    margin-top: 10px;
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+.password_strength {
+    border: 2px solid #ccc;
+    width: 24%;
+}
+
+.btn_continue {
+    border-radius: 100px;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 48px;
+    padding: 0 35px;
+    width: 100%;
+}
+
+.error_msg {
+    font-size: 1.125rem;
+    color: rgb(112, 112, 112);
+}
+
+@media (max-width: 767px) {
+
+}

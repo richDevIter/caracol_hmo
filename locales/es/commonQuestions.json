@@ -1,0 +1,44 @@
+{
+    "title": "¿Cómo podemos ayudar?",
+    "info": {
+        "informations": "Informaciones",
+        "whatsTheProblem": "Díganos cuál es el problema y encontraremos la forma más rápida de ayudar.",
+        "howIdentify": "¿Cómo identifico el guía o el vehículo para mi tour?",
+        "theGuide": "El guía y el vehículo varían según el tour. El guía tiene una lista de pasajeros y buscará los pasajeros en el lobby del hotel. Por favor no esperar fuera del hotel ni en la habitación.",
+        "theGuide2": "Si prefieres, llame a nuestra Central de Atención y confirme los detalles de identificación del guía y vehículo.",
+        "howDoiKnow": "¿Cómo sé si buscan en mi hotel?",
+         "youllFind": "Encontrarás la lista de puntos de recogida en la página final de pago. Debes elegir el punto de recogida antes del pago.",
+         "youllFind2": "Si su hotel no está en la lista, llame a nuestra Central de Atención que nuestro equipo ayudará a encontrar el punto de recogida más cercano a su hotel.",         
+         "whatTime": "¿A qué horas me buscan? ¿Es esta la misma hora de inicio del tour?",
+         "boardingTime": "La hora de recogida y la hora de inicio del tour no son lo mismo. La hora de inicio del tour es el tiempo estimado después de que todos los pasajeros hayan abordado.",
+         "boardingTime2": "Esté listo en el lobby de punto de recogida al menos 5 minutos antes de la hora de embarque.",
+         "boardingVehicle": "¿Cómo sé si el vehículo de embarque ha pasado o está atrasado?",
+         "callUs": "Por favor llame a nuestra Central de Atención que nuestro personal confirmará la ubicación del vehículo.",
+         "doINeedMyPassport": "¿Necesito llevar un pasaporte o documento para el tour?",
+         "activityRules": "Cada actividad tiene sus reglas específicas, así que verifique la descripción y el voucher. Si tiene dudas, comuníquese con la Central de Atención.",
+         "whatShouldIUse": "¿Qué me pongo o traigo en el tour? ¿Hay algún ropa obligatoria?",
+         "noRule": "No hay una regla general de qué llevar o usar, pero te recomendamos que consultes la descripción y el bono. Cada actividad es diferente, pero te recomendamos que traigas un documento, dinero y animación para cualquier tour ",
+         "veganOptions": "¿Hay opciones para vegetarianos, celíacos o alérgicos a lactosa?",
+         "weRecommend": "Si no hay ninguna observación en la descripción de la actividad, le recomendamos que se comunique con el Centro de Servicio.",
+         "badWeather": "¿Se confirma el tour incluso con mal tiempo y fuertes lluvias?",
+         "cancelPolicy": "La política de cancelación por condiciones climáticas debe estar en la descripción del producto y el voucher. Si se cancela el recorrido, contactaremos para informarle de la situación. La entrega de impermeables es opcional por el operador de la actividad.",
+         "timeInSpot": "¿Cuánto tiempo nos quedamos en cada atracción turística?",
+         "activityTime": "El tiempo promedio en cada actividad varía según la actividad y el día.",
+         "returnTime": "¿Cuál es la hora de regreso al punto de retorno?",
+         "dropoffTime": "Los horarios de recogida varían según la ruta de los puntos de recogida y las condiciones del tráfico del día. Hable con nuestro Central de Atención."
+    },
+    "booking": {
+        "bookingManage": "Gestionar una reserva",
+        "bookingManage2": "Cambie fechas, añada actividades o cancele su reserva en línea fácilmente.",
+        "howDoiDo": "¿Como hago para cambiar o confirmar una reserva?",
+        "verify": "Verifique su reserva accediendo a",
+        "myActivities": " Mis Actividades"
+    },
+    "contact": {
+        "contactUs": "Contacte",
+        "getInContact": "Póngase en contacto con el Servicio de Atención al Cliente inmediatamente, envíenos sus preguntas por correo electrónico o realice cambios en sus reservas existentes.",
+        "clickToCall": "Prensa para llamar",
+        "clickToTalk": "Prensa para chatear",
+        "sendEmail": "Enviar e-mail"
+    }
+}

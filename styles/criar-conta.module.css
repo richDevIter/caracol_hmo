@@ -1,0 +1,106 @@
+.create_account {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    background-color: #FFFFFF;
+    padding: 2.5rem;
+}
+
+.create_account h1 {
+    color: #2a2146;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.google_login {
+    width: 100% !important;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #d3d0dc !important; */
+    border-radius: .375rem;
+    box-shadow: none !important;
+    margin-bottom: 1rem;
+}
+
+
+.form input {
+    color: #212529;
+    background-color: #fff;
+    height: 3rem;
+    border-radius: 0.3rem;
+    padding: 0.75rem 1.25rem;
+    margin-top: .5rem;
+}
+
+.form input:focus {
+    border-color: #1f6a5d3d;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #c2d9d5;
+    transition: none;
+}
+
+.password_strength_container {
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.password_strength {
+    border: 2px solid #ccc;
+}
+
+.checkbox {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    border: 1px solid rgba(0, 0, 0, .25);
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    appearance: none;
+    padding: 7px !important;
+
+}
+
+.checkbox:checked {
+    background-image: url('../assets/icons/svg/check.svg');
+    background-color: var(--primary);
+    border-color: var(--primary);
+    background-size: 65%;
+}
+
+.form_radio {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.link{
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.link :hover{
+    color: var(--primary)
+}
+
+.text_grey{
+    color: #58565d;
+}
+
+
+.modal_body .error_msg{
+    color: #58565d;
+    font-size: 1.125rem;
+}
+
+@media (max-width: 1366px) {
+    .create_account {
+        margin: 2.5rem 1rem;
+        background-color: #FFFFFF;
+        padding: 2.5rem 1rem;
+        width: auto;
+    }
+}

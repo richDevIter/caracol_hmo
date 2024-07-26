@@ -1,0 +1,22 @@
+{
+    "activity": "Activities",
+    "transfers": "Transfers",
+    "searchTour": "Search by activity or city",
+    "search": "Search",
+    "city": "Cities",
+    "tour": "Tours",
+    "origin": "Enter the Origin",
+    "destiny": "Enter your Destination",
+    "date": "Enter the Date and Time",
+    "fndActiv": "Find activity",
+    "fndTransfer": "Find transfer",
+    "fndCombo": "Find combo",
+    "searchPlaceholder": "Find your destination...",
+    "activPlaceholder": "Choose your destination...",
+    "selectOrigin": "Enter the origin...",
+    "selectDestination": "Enter the destination...",
+    "chooseDate": "Choose date...",
+    "comboPlaceholder": "Choose your combo...",
+    "errorOrigin": "Choose the origin",
+    "errorDestination": "Choose the destination"
+  }

@@ -1,0 +1,29 @@
+.calendar_input {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: initial!important;
+    color: #fff;
+    height: 54px!important;
+    border: 1px solid #d1cbe0;
+    border-radius: 100px!important;
+    padding: 0.375rem 0.75rem 0.375rem 3.25rem!important;
+}
+
+.input_group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.calendar_input::placeholder {
+    color: #FFF;
+}
+
+.input_calendar_custom {
+    position: absolute;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}

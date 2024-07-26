@@ -1,0 +1,104 @@
+.bg_why_reservation {
+  padding-bottom: 10px;
+  padding-top: 80px;
+}
+
+.h3_why_reservation {
+  color: #034C43;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.175rem;
+  padding-bottom: 1.5rem;
+}
+
+.h3_why_reservation_span {
+  color: #00cc79;
+}
+
+.card_why_reservation {
+  background-color: #f5f5fb;
+  width: 92%;
+  height: 288px;
+  border-radius: 8px;
+  padding: 28px;
+  margin: auto;
+}
+
+.why_top {
+  margin-top: 82px;
+}
+
+.h4_why_reservation {
+  color: #2a2146;
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 2.125rem;
+  margin-bottom: 0.6875rem;
+}
+
+.p_why_reservation {
+  color: #58565d;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .card_why_reservation img {
+    width: 60px;
+    margin-bottom: 0.875rem;
+  }
+
+  .h3_why_reservation {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 0rem 1rem;
+  }
+
+  .h4_why_reservation {
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.6875rem;
+  }
+
+  .p_why_reservation {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .bg_why_reservation {
+    padding-top: 20px;
+  }
+
+  .card_why_reservation {
+    max-width: 85% !important;
+    max-height: 220px !important;
+    margin: 0;
+    padding: 28px;
+  }
+
+  .card_why_reservation img {
+    width: 70px;
+    margin-bottom: 0.875rem;
+  }
+
+  .h3_why_reservation {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 0rem 1rem;
+  }
+
+  .h4_why_reservation {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.6875rem;
+  }
+
+  .p_why_reservation {
+    font-size: .875rem;
+    line-height: 1.125rem;
+  }
+}

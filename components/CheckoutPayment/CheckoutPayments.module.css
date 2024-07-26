@@ -1,0 +1,16 @@
+.accordion {
+    border: 2px solid #d1cbe0!important;
+    padding: 2rem 2rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    
+}
+
+.title_payments {
+    color: #2a2146;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.375rem;
+}

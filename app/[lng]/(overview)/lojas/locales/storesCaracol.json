@@ -1,0 +1,110 @@
+{
+    "stores": {
+        "default": [
+            {
+                "name": "Art Castelo Facas",
+                "location": "Art Castelo Facas",
+                "type": "Varejo",
+                "typeEn": "Varejo",
+                "typeEs": "Varejo",
+                "phone": "",
+                "image": "/images/imgs-lojas-caracol/art_castelo.png",
+                "description":"Facas e couro",
+                "addInfo":"",
+                "instagram": "_artcastelo"
+            },
+            {
+                "name": "Art Castelo Malhas",
+                "location": "Art Castelo Malhas",
+                "type": "Varejo",
+                "typeEn": "Varejo",
+                "typeEs": "Varejo",
+                "phone": "",
+                "image": "/images/imgs-lojas-caracol/art_castelo.png",
+                "description":"Malhas e confecção",
+                "addInfo":""
+            },
+            {
+                "name": "Família Chaulet",
+                "location": "Família Chaulet",
+                "type": "Alimentação",
+                "typeEn": "Alimentação",
+                "typeEs": "Alimentação",
+                "phone": "",
+                "image": "/images/imgs-lojas-caracol/família_chaulet.jpg",
+                "description":"Salamaria e Cutelaria",
+                "addInfo":"",
+                "instagram": "família.chaulet"
+            },
+            {
+                "name": "Jolimont",
+                "location": "Jolimont",
+                "type": "Bebidas",
+                "typeEn": "Bebidas",
+                "typeEs": "Bebidas",
+                "phone": "",
+                "image": "/images/imgs-lojas-caracol/jolimont.png",
+                "description":"Vinhos e Espumantes",
+                "addInfo":"",
+                "instagram": "jolimontvinicola"
+            },
+            {
+                "name": "Novo Milênio Fotografia",
+                "location": "Novo Milênio Fotografia",
+                "type": "Foto",
+                "typeEn": "Foto",
+                "typeEs": "Foto",
+                "phone": "",
+                "image": "/images/imgs-lojas-caracol/novo-milênio.png",
+                "description":"Fotografia",
+                "addInfo":""
+            },
+            {
+                "name": "Sabor e Flor",
+                "location": "Sabor e Flor",
+                "type": "Alimentação",
+                "typeEn": "Alimentação",
+                "typeEs": "Alimentação",
+                "phone": "",
+                "image": "/images/imgs-lojas-caracol/sabor_flor.png",
+                "description":"Restaurante",
+                "addInfo":"",
+                "instagram": "restaurante.saboreflor"
+            },
+            {
+                "name": "Sonho Vivo",
+                "location": "Sonho Vivo",
+                "type": "Experiência",
+                "typeEn": "Experiência",
+                "typeEs": "Experiência",
+                "phone": "",
+                "image": "/images/imgs-lojas-caracol/sonho_vivo.jpeg",
+                "description":"Trenzinho",
+                "addInfo":""
+            },
+            {
+                "name": "Tchê Maragato",
+                "location": "Tchê Maragato",
+                "type": "Alimentação",
+                "typeEn": "Alimentação",
+                "typeEs": "Alimentação",
+                "phone": "",
+                "image": "/images/imgs-lojas-caracol/tche_maragato.png",
+                "description":"Malhas e confecção",
+                "addInfo":"",
+                "instagram": "tchemaragato.loja"
+            },
+            {
+                "name": "Waiss",
+                "location": "Waiss",
+                "type": "Alimentação",
+                "typeEn": "Alimentação",
+                "typeEs": "Alimentação",
+                "phone": "",
+                "image": "/images/imgs-lojas-caracol/logo-waiss.png",
+                "description":"Chocolate",
+                "addInfo":""
+            }
+        ]
+    }
+}

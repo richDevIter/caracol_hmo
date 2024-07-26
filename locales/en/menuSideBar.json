@@ -1,0 +1,13 @@
+{
+    "mainMenu": {
+        "makeLogin": "Login",
+        "createAccount": "Create an account",
+        "or": "or",
+        "myCart": "My cart",
+        "chooseLanguage": "Language",
+        "help": "Help",
+        "myActivities": "My activities",
+        "myProfile": "My Profile",
+        "leave": "Leaver"
+    }
+}

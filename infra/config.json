@@ -1,0 +1,14 @@
+{
+    "SERVER_URL": "http://localhost:3000/",
+    "SERVER_TESTE": "https://c2.tours/",
+    "THEME_COLORS": {
+      "PRIMARY": "#ff6600",
+      "SECONDARY": "#ffC60A"
+    },
+    "DATE": {
+        "PT": "DD/MM/YYYY"
+    },
+    "GOOGLE_KEYS": {
+        "GOOGLE_MAPS": "AIzaSyBv2aZ2YO_aW4PIEmXoxHgxC8Ps8DB0o-s"
+    }
+  }

@@ -1,0 +1,55 @@
+.steps_guide {
+    width: 90%;
+    margin: auto;
+}
+
+.step {
+    font-weight: 500;
+    background-color: #adb5bd;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.step span {
+    color: #707070;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 250px;
+}
+
+.stepline {
+    width: calc(50% - 45px);
+    background-color: #adb5bd;
+    height: 5px;
+}
+
+.complete {
+    background-color: var(--primary);
+}
+
+.completeText {
+    color: var(--primary) !important;
+}
+
+.forms_affiliates {
+    padding: 4rem 0 1rem;
+}
+
+.forms_affiliates label {
+    line-height: 2rem;
+}
+
+@media (max-width: 767px) {
+    .step span {
+        width: auto;
+        font-size: .8rem;
+        line-height: 1.25rem;
+        padding-top: 0.75rem;
+    }
+}

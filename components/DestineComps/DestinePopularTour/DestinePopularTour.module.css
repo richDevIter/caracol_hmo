@@ -1,0 +1,209 @@
+.bg_popular_tour {
+    padding-bottom: 100px;
+}
+.bg_popular_tour .col-span-8 {
+    width: 64%;
+    padding-left: 0;
+    padding-right: 40px;
+}
+.bg_popular_tour .col-span-4 {
+    width: 36%;
+    padding-right: 0;
+}
+.bg_popular_tour .popular_tour {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.bg_popular_tour .popular_tour h3 {
+    color: #2a2146;
+    font-size: 2.75rem;
+    line-height: 3.313rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.btn_attaction {
+    padding-top: 5px;
+}
+.btn_attaction .btn {
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 10px 25px;
+    line-height: 1.375rem;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn_attaction .btn:hover {
+    background-color: var(--primary);
+    color: #FFFFFF;
+}
+
+.bg_popular_tour .img_turistico .text_turistico {
+    display: none;
+}
+
+.see_activity {
+    color: #00cc79;
+    text-decoration: none;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 700;
+}
+
+.see_activity:hover {
+    opacity: .7;
+}
+
+.col_span_4_custom {
+    width: 38%;
+}
+
+.col_span_8_custom {
+    width: 62%;
+}
+
+@media (max-width: 767px) {
+    .bg_popular_tour {
+        margin-top: -30px;
+        padding-bottom: 25px;
+   }
+    .bg_popular_tour .popular_tour {
+        display: flex;
+        align-items: center;
+        height: 100%;
+   }
+    .bg_popular_tour h3 {
+        width: 95%;
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+   }
+    .bg_popular_tour .popular_tour .btn_attaction {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+   }
+    .bg_popular_tour .popular_tour .btn_attaction .btn {
+        font-size: 1rem;
+        line-height: 1.125rem;
+        font-weight: 500;
+        border-radius: 100px;
+        padding: 10px 25px;
+        border: 2px solid var(--primary);
+   }
+    .bg_popular_tour .slick-track {
+        display: flex;
+        align-items: center;
+   }
+    .bg_popular_tour .slick-track .slick-slide {
+        padding: 0 10px;
+   }
+    .bg_popular_tour .slick-track .slick-slide.slick-current {
+        padding: 0;
+   }
+    .bg_popular_tour .slick-arrow.slick-next {
+        right: 45px;
+        z-index: 9;
+   }
+    .bg_popular_tour .slick-arrow.slick-next:hover:before {
+        color: #2a2146;
+        background-color: #f6f5f8;
+   }
+    .bg_popular_tour .slick-arrow.slick-next::before {
+        content: '>';
+        color: #fff;
+        font-size: 1.2rem;
+        line-height: 0;
+        font-family: "effra";
+        background-color: var(--primary);
+        border-radius: 50%;
+        padding: 5px 11.5px;
+        opacity: 1;
+   }
+    .bg_popular_tour .slick-arrow.slick-prev {
+        left: 30px;
+        z-index: 9;
+   }
+    .bg_popular_tour .slick-arrow.slick-prev:hover:before {
+        color: #2a2146;
+        background-color: #f6f5f8;
+   }
+    .bg_popular_tour .slick-arrow.slick-prev::before {
+        content: '<';
+        color: #fff;
+        font-size: 1.2rem;
+        line-height: 0;
+        font-family: "effra";
+        background-color: var(--primary);
+        border-radius: 50%;
+        padding: 5px 11.5px;
+        opacity: 1;
+   }
+    .bg_popular_tour .slick-prev.slick-disabled:before, .bg_popular_tour .slick-next.slick-disabled:before {
+        background-color: #f6f5f8;
+        color: #2a2146;
+        opacity: 1;
+   }
+    .bg_popular_tour .slick-current .img_turistico {
+        width: 100%;
+        height: 245px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 6.8547px;
+   }
+    .bg_popular_tour .slick-current .img_turistico .text_turistico {
+        padding: 10px;
+        display: block !important;
+   }
+    .bg_popular_tour .slick-current .img_turistico .text_turistico h5 {
+        color: #fff;
+        font-size: 1rem;
+        line-height: 1rem;
+   }
+    .bg_popular_tour .slick-current .img_turistico .text_turistico p {
+        color: #fff;
+        font-size: 0.75rem;
+        line-height: 1rem;
+   }
+    .bg_popular_tour .slick-current .img_turistico::after {
+        content: "";
+        background: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 39.04%, rgba(0, 0, 0, 0) 73.25%);
+        width: 100%;
+        height: 245px;
+        position: absolute;
+        border-radius: 6.8547px;
+   }
+    .bg_popular_tour .img_turistico {
+        width: 100%;
+        height: 150px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 6.8547px;
+   }
+    .bg_popular_tour .slick-slider.slick-initialized:before {
+        width: 150px;
+        height: 100%;
+        background: linear-gradient(90deg, #fff 5%, rgba(255, 255, 255, 0) 80%);
+        content: "";
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+   }
+    .bg_popular_tour .slick-slider.slick-initialized:after {
+        width: 150px;
+        height: 100%;
+        background: linear-gradient(270deg, #fff 5%, rgba(255, 255, 255, 0) 80%);
+        content: "";
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        right: 0;
+   }
+}

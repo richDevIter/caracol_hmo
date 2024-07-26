@@ -1,0 +1,24 @@
+.home_video iframe {
+    width: 992px;
+    height: clamp(260px, 55vw, 560px);
+}
+
+.bg_home_main_text {
+    margin: auto;
+    padding: 0 3.5rem;
+    width: 75%;
+    margin: 1.5rem 0 3rem !important;
+}
+
+@media (max-width: 767px) {
+    .home_video iframe {
+        width: 100%;
+    }
+    
+    .bg_home_main_text {
+        margin: auto;
+        padding: 0 0;
+        width: 100%;
+        margin: 1.5rem 0 3rem !important;
+    }
+}

@@ -1,0 +1,53 @@
+.title{
+    color: #034C43;
+    text-align: center;
+    padding: 3rem 0 ;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.paragraph{
+    margin-bottom: 1rem;
+}
+
+.subtitle{
+    color: #034C43;
+    font-weight: 700;
+    /* margin-top: 1rem!important;
+    margin-bottom: 1rem!important; */
+    line-height: 1.2;
+    font-size: 1rem;
+}
+
+.caps{
+    text-transform: uppercase;
+}
+.primary {
+    color: #034C43;
+}
+
+.accordionButton{
+    background-color: #F0EAFF !important;
+}
+
+.accordionTitle{
+    color: #034C43 !important;
+    font-size: calc(1.3rem + .6vw);
+    margin-top: 0;   
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.accordionSubtitle{
+    color: #495057;    
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.contactButton{
+    border-color: #034C43 !important;
+    color: #034C43 !important;
+}

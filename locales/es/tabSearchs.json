@@ -1,0 +1,22 @@
+{
+    "activity": "Actividades",
+    "transfers": "Transfers",
+    "searchTour": "Buscar por actividad o ciudad",
+    "search": "Buscar",
+    "city": "Ciudades",
+    "tour": "Excursiones",
+    "origin": "Ingrese la Fuente",
+    "destiny": "Ingrese su Destino",
+    "date": "Ingrese la fecha y la hora",
+    "fndActiv": "Buscar actividad",
+    "fndTransfer": "Buscar transporte",
+    "fndCombo": "Buscar combo",
+    "searchPlaceholder":"Encuentra tu destino...",
+    "activPlaceholder": "Elige tu destino...",
+    "selectOrigin": "Introduce el origen...",
+    "selectDestination": "Introduce el destino...",
+    "chooseDate": "Elige la fecha...",
+    "comboPlaceholder": "Elige tu combo...",
+    "errorOrigin": "Elige el origen",
+    "errorDestination": "Elige el destino"
+  }

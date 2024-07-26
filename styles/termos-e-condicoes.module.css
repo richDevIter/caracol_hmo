@@ -1,0 +1,39 @@
+.title {
+    color: var(--primary);
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.subtitle {
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-weight: bolder;
+}
+
+.primarybold {
+    color: var(--primary);
+    font-weight: bolder;
+}
+
+.paragraph {
+    margin: 1.5rem 0;
+}
+
+.paragraph b {
+    color: var(--primary);
+}
+
+.paragraph a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.paragraph a:hover {
+    color: #5227cc;
+}

@@ -1,0 +1,57 @@
+.form_control {
+    height: 48px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form_control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #b398ff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(103,49,255,.25);
+}
+
+
+.btn_back {
+    border-radius: 100px;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 48px;
+    padding: 0 35px;
+    width: 100%;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.form_check {
+    width: 1em;
+    height: 1em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.25em;
+}
+
+.form_check:checked {
+    background-color: #034C43;
+    border-color: #034C43;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='3' d='M6 10l3 3 6-6'/%3E%3C/svg%3E");
+}
