@@ -9,7 +9,7 @@ import CheckoutPaymentPix from '../CheckoutPayment/CheckoutPaymentPix/CheckoutPa
 import { IconCreditCard, IconPix } from '@/assets/icons';
 import picpay from "@/assets/icons/picpay_logo.png";
 import useAppData from '@/data/hooks/useCartData';
-import useKoin from '@/data/hooks/useKoin';
+import usekoin from '@/data/hooks/useKoin';
 import { useParams } from 'next/navigation';
 import { getDictionary } from '@/dictionaries';
 
@@ -264,7 +264,7 @@ const CheckoutStepPayment: React.FC<propAction> = ({
         if (data.brand === '' || data.brand === 'unknown') {
             //alertar erro de bandeira
         } else {
-            let koin = await useKoin()//newGetKoin
+            let koin = await usekoin()//newGetKoin
             //let koinValue = await getKoin();
 
             createObjectToPayment(data, koin);

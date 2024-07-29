@@ -99,7 +99,7 @@ const Atividades = () => {
         } else {
             handleActivities(+cookies.idCanal);
         }
-    }, []);
+    }, [cookies.idCanal, handleActivities, repoChannel]);
 
     function HandleMore() {
         if (seeMore <= tourLists?.length) {

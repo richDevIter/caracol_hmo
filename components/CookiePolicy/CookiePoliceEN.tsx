@@ -8,7 +8,7 @@ function CookiePolicyEN() {
 
             <p className="px-3"><b>1.1.</b> This Policy of Cookies (“Policy”), is a complementary part of the Privacy Policy, establishing a formal document that represents the protection of Personal Data as one of the values of <b>CARACOL PARK</b>.</p>
 
-            <p className="px-3"><b>1.2.</b> This Policy is intended to highlight the ways in which Users' personal data may be collected, processed and/or stored through the use of Cookies from the website platform of <b>CARACOL PARK</b> (<a href="/">www.parquecaracol.com.br</a>).</p>
+            <p className="px-3"><b>1.2.</b> This Policy is intended to highlight the ways in which Users&apos; personal data may be collected, processed and/or stored through the use of Cookies from the website platform of <b>CARACOL PARK</b> (<a href="/">www.parquecaracol.com.br</a>).</p>
 
             <p className="px-3"><b>1.3.</b> 1.3	It is expected that this document is read carefully, as we seek to provide all our stakeholders with clear and accurate information on the processing of their personal data. This Policy may be reviewed, and any significant changes must be read at <b>CARACOL PARK</b> website, and any changes will only apply from the review date.</p>
 
